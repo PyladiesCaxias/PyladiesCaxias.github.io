@@ -73,7 +73,6 @@
               {% for page in pages %}
                 <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
               {% endfor %}
-                          <li class="divider-vertical"></li>
               {% endif %}
               {% if DISPLAY_CATEGORIES_ON_MENU %}
               {% for cat, null in categories %}
@@ -97,28 +96,18 @@
     </div>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="span9" id="content">
+        <div id="content">
             {% block content %}
             {% endblock %}
         </div><!--/span-->
-
-                <div class="span3 well sidebar-nav" id="sidebar">
-            {% include 'sidebar.html' %}
-        </div><!--/.well -->
-
-      </div><!--/row-->
 
       <hr>
 
       <footer>
         <address id="about">
-                Proudly powered by <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
-                                which takes great advantage of <a href="http://python.org">Python <i class="icon-external-link"></i></a>.
+                Site produzido em <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
+                                com a tecnologia <a href="http://python.org">Python <i class="icon-external-link"></i></a>.
         </address><!-- /#about -->
-
-        <p>The theme is from <a href="http://twitter.github.com/bootstrap/">Bootstrap from Twitter <i class="icon-external-link"></i></a>,
-                   and <a href="http://fortawesome.github.com/Font-Awesome/">Font-Awesome <i class="icon-external-link"></i></a>, thanks!</p>
       </footer>
 
     </div><!--/.fluid-container-->
