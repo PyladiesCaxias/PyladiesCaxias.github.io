@@ -7,6 +7,7 @@ SITENAME = u'Pyladies Caxias'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Sao_Paulo'
 
