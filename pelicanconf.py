@@ -7,10 +7,13 @@ SITENAME = u'Pyladies Caxias'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'pt'
+
+DISPLAY_PAGES_ON_MENU = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -33,3 +36,6 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+PLUGINS = [
+    'pelican_youtube',
+]
