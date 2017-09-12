@@ -19,5 +19,3 @@ desejo é fazer com que elas nos vejam e pensem “Eu quero estar ai também!”
 
 O Pyladies Caxias é um grupo da região de Caxias do Sul e Serra Gaúcha do estado Rio Grande do Sul, é vinculado ao grupo
 [Pyladies Brasil](http://brasil.pyladies.com/).
-
-Bem vind@s!

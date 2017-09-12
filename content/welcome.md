@@ -1,5 +1,5 @@
-title: Pyladies Caxias
-description: Bem vinda ao PyLadies Caxias
+title: Bem Vindas - Pyladies Caxias
+description: PyLadies Caxias
 Date: 2017-07-01 00:00
 
 
