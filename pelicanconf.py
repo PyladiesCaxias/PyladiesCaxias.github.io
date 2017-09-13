@@ -34,9 +34,12 @@ AUTHOR_FEED_RSS = None
 
 
 MENUITEMS = (
-    # ('Sobre', '/about'),
     ('Eventos', '/category/eventos.html'),
+    ('Proximos Eventos', '/category/proximos-eventos.html'),
+    ('Blog', '/archives.html'),
+    # ('Materiais', '/category/materiais.html'),
 )
+
 
 # Blogroll
 LINKS = (('Python.org', 'http://python.org/'),

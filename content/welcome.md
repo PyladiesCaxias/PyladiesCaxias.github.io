@@ -1,9 +1,10 @@
 title: Seja Bem Vinda - Pyladies Caxias
 description: PyLadies Caxias
+category: pyladies
 Date: 2017-07-01 00:00
 
 
-![Pyladies Caxias]({filename}/images/icones/logo.jpg)
+![Pyladies Caxias]({filename}/images/icones/logo.jpg =250x)
 
 
 O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica.
@@ -17,7 +18,7 @@ python. Pá! Brinquem. E se quiserem revolucionar o mundo mesmo sem ter seu cód
 Nosso propósito não é segregar, pelo contrário, queremos criar o ambiente para que mais meninas sejam atraídas pela tecnologia. Nosso
 desejo é fazer com que elas nos vejam e pensem “Eu quero estar ai também!”.
 
-O Pyladies Caxias é um grupo da região de Caxias do Sul e Serra Gaúcha, que pertence ao grupo
+O Pyladies Caxias é um grupo da região de **Caxias do Sul e Serra Gaúcha**, que pertence ao grupo
 [Pyladies Brasil](http://brasil.pyladies.com/).
 
 Bem vind@s!
