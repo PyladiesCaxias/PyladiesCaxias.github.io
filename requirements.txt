@@ -1,3 +1,4 @@
 pelican
 markdown
 pelican-youtube
+ghp-import
