@@ -1,0 +1,21 @@
+.navbar-inner{
+    background: #7e2c74;
+}
+.navbar .nav > li > a{
+    color: #fff;
+    text-shadow: none;
+}
+.navbar .nav > li > a:hover{
+    color: #CA74C0;
+}
+.navbar .nav .active > a{
+    background: #7e2c74;
+    color: #fff;
+}
+.navbar .nav .active > a:hover{
+    background: #CA74C0;
+    color: #7e2c74;
+}
+a{
+    color: #7e2c74;
+}
