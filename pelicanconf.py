@@ -15,7 +15,7 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'icones/logo.ico']
+STATIC_PATHS = ['images', 'icones/logo.ico', 'pdfs']
 
 TIMEZONE = 'America/Sao_Paulo'
 

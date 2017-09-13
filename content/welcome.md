@@ -4,7 +4,7 @@ category: pyladies
 Date: 2017-07-01 00:00
 
 
-![Pyladies Caxias]({filename}/images/icones/logo.jpg =250x)
+![Pyladies Caxias]({filename}/images/icones/logo.jpg){: width=200px; max-height=200px; text-align=center}
 
 
 O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica.

@@ -23,3 +23,9 @@ A Python Sul 2017 é organizada pela comunidade Python do Rio Grande do Sul, com
 **facebook:** *Python Sul*
 
 **twitter:** *@pythonsul*
+
+
+## Palestra Pyladies
+
+O Payladies Caxias junto com o Pyladies POA, fez uma palestra na Python Sul: **"PyLadies: mulheres aprendendo (e ensinando) a programar"**.
+Confiram a palestra no link: [Palestra PDF]({filename}/pdfs/PyLadies.pdf)

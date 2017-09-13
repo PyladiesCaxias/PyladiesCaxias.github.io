@@ -4,7 +4,7 @@ description: Pyladies Caxias do Sul
 template: page
 
 
-**Olá!**
+# Sobre o Pyladies Caxias
 
 Somos mulheres que sabem e/ou estão aprendendo Python e estamos organizando esse grupo para trocar experiências e aprendizados.
 
