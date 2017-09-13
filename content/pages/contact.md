@@ -1,1 +1,2 @@
 title: Contato
+template: contato

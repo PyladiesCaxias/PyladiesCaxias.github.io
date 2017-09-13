@@ -5,3 +5,7 @@ tags: eventos, encontros
 Date: 2017-07-15 9:10
 
 O PyLadies Caxias do Sul teve seu primeiro enconto no dia 07 de Julho de 2017.
+
+![Primeiro encontro Pyladies]({filename}/images/1encontro.jpg)
+
+.. youtube:: v=7EV9wxhrUaI

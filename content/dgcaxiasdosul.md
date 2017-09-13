@@ -13,7 +13,5 @@ seguindo o tutorial do [Django Girls](https://tutorial.djangogirls.org/pt/).
 
 
 
-![Foto Oficial]({filename}/images/36775167500_0905ba9bc2_z.jpg)
-<!-- ![Patrocinadores]({filename}/images/36358457823_ff64e5285d_z.jpg) -->
-![Treinadoras]({filename}/images/36982957166_e3ff38ffbf_z.jpg)
-<!-- ![Hora do Lanche]({filename}/images/36983145626_f6a6c34db8_z.jpg) -->
+![Foto Oficial]({filename}/images/DG/36775167500_0905ba9bc2_z.jpg)
+![Treinadoras]({filename}/images/DG/36982957166_e3ff38ffbf_z.jpg)
