@@ -17,6 +17,7 @@ só precisará adicionar o restante do conteúdo.
 Exemplos:
 
 **category: Eventos**
+
 **category: Proximos Eventos**
 
 
