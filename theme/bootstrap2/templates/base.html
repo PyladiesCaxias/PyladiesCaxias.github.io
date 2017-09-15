@@ -31,6 +31,7 @@
      }
     </style>
     <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/bootstrap2.min.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/css/custom.css" rel="stylesheet">
@@ -41,7 +42,7 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+    <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/icones/favicon.ico">
     <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
@@ -95,13 +96,20 @@
       </div>
     </div>
 
-    <div class="container">
-        <div id="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="span9" id="content">
             {% block content %}
             {% endblock %}
         </div><!--/span-->
 
-      <hr>
+                  <div class="span3 sidebar-nav" id="sidebar">
+                  {% include 'sidebar.html' %}
+                  </div>    <!--/.well -->
+
+        </div><!--/row-->
+    </div>
+    <hr>
 
       <footer>
         <address id="about">
@@ -110,7 +118,7 @@
         </address><!-- /#about -->
       </footer>
 
-    </div><!--/.fluid-container-->
+    
 
 
     {% include 'analytics.html' %}

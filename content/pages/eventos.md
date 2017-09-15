@@ -1,0 +1,2 @@
+title: Eventos
+template: events

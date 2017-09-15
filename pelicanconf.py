@@ -34,8 +34,6 @@ AUTHOR_FEED_RSS = None
 
 
 MENUITEMS = (
-    ('Eventos', '/category/eventos.html'),
-    ('Proximos Eventos', '/category/proximos-eventos.html'),
     # ('Blog', '/archives.html'),
     # ('Materiais', '/category/materiais.html'),
 )
@@ -44,6 +42,11 @@ MENUITEMS = (
 # Blogroll
 LINKS = (('Python.org', 'http://python.org/'),
          ('Pyladies Brasil', 'http://brasil.pyladies.com/'),)
+
+# Blogroll
+SOCIAL = (('facebook', 'https://www.facebook.com/Pyladies-Caxias-1858294514418047/'),
+         ('github', 'https://github.com/PyladiesCaxias'),('pyladiescaxias@gmail.com', 'pyladiescaxias@gmail.com'),)
+
 
 DEFAULT_PAGINATION = 10
 
