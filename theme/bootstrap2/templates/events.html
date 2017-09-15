@@ -5,7 +5,7 @@
 {% for article in dates %}
 	{% if article.category.name  == 'Proximos Eventos' %}
 		<div class="panel panel-default">
-		  <div class="panel-heading"><a href='/{{ article.url }}'>{{ article.title }} - {{ article.locale_date }}</a></div>
+		  <div class="panel-heading"><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }} - {{ article.locale_date }}</a></div>
 		  <div class="panel-body">
 		    {{ article.summary }}
 		  </div>
