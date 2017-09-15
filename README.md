@@ -105,7 +105,7 @@ Contribuindo
 ------------
 
 Para contribuir com o projeto veja o guia de
-[Contribuição](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md).
+[Contribuição](https://github.com/PyladiesCaxias/site/blob/master/CONTRIBUINDO.md).
 
 Links Úteis
 -----------
