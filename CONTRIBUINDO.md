@@ -1,5 +1,3 @@
-Menu
-====
 1. Criando e Adicionando
   * [Criar um novo post](#criar-um-novo-post)
   * [Atualizando o site](#atualizando-o-site)
@@ -18,8 +16,8 @@ só precisará adicionar o restante do conteúdo.
 *Obs: Deve adicionar a categoria do post.*
 Exemplos:
 
-*category: Eventos*
-*category: Proximos Eventos*
+**category: Eventos**
+**category: Proximos Eventos**
 
 
 Após terminar o post, renderize-o com o comando:

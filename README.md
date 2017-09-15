@@ -1,4 +1,4 @@
-![Pyladies](content/images/logo.jpg)
+![Pyladies](content/images/icones/logo.jpg)
 
 # site
 Projeto colaborativo do site PyladiesCaxias (Caxias do Sul / Rio grande do Sul).
