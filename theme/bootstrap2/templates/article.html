@@ -14,9 +14,7 @@
                         </h1>
                 </header>
                 <div class="entry-content">
-                <div class="well">
-                        {% include 'article_infos.html' %}
-                </div>
+                {% include 'article_infos.html' %}
                 {{ article.content }}
                 </div><!-- /.entry-content -->
                 {% if DISQUS_SITENAME %}

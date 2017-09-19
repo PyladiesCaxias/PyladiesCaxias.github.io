@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Caxias'
+SITELOGO = 'images/icones/desenho3.png'
 SITEURL = 'http://localhost:8000'
 TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
            'sem o seu consentimento (Eleanor Roosevelt)')

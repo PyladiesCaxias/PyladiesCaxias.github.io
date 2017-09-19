@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>Próximos Eventos</h1>
+<h1>{{ page.title }}</h1>
+<hr />
+{{ page.content }}
+
+<h2 class="title">Próximos Eventos</h2>
+<hr />
 {% for article in dates %}
 	{% if article.category.name  == 'Proximos Eventos' %}
 		<div class="panel panel-default">
@@ -14,7 +19,8 @@
 {% endfor %}
 
 
-<h1>Eventos Anteriores</h1>
+<h2 class="title">Eventos Anteriores</h2>
+<hr />
 {% for article in dates %}
 	{% if article.category.name  == 'Eventos' %}
 		<div class="panel panel-default">

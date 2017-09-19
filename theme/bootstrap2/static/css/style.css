@@ -1,0 +1,105 @@
+.notepad-content .notepad-index-post .post-header {
+    min-height: 93px;
+    margin-bottom: 2%;
+}
+
+    @media only screen and (min-width: 40.063em) {
+        .notepad-content .notepad-index-post .post-header {
+          margin-bottom: 0; } }
+    .notepad-content .notepad-index-post {
+      min-height: 300px;
+      margin-top: 3.375rem;
+      margin-bottom: 3px; }
+
+    .notepad-post-meta {
+      display: inline-block;
+    }
+    .notepad-content .notepad-index-post .notepad-post-meta .day {
+      display: block;
+      font-size: 3.25rem;
+      font-weight: 800;
+      color: #ff3373;
+      font-family: "Montserrat", sans-serif; }
+    .notepad-content .notepad-index-post .notepad-post-meta .month-year {
+      display: block;
+      font-size: 1rem;
+      color: #262626;
+      font-size: 0.875rem;
+      font-family: "Montserrat", sans-serif;}
+  .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
+    color: #262626;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.625rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1; }
+    .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
+      color: #262626; }
+    .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a:hover {
+      color: #ff3373; }
+  @media only screen and (min-width: 40.063em) {
+    .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
+      text-align: left;
+      font-size: 24px;
+      margin-bottom: 0.9375rem; } }
+  .notepad-content .notepad-index-post .notepad-post-excerpt {
+    color: #262626;
+    font-size: 1.25rem;
+    margin-top: 0.625rem;
+    text-align: center; }
+    .notepad-content .notepad-index-post .notepad-post-excerpt p {
+      margin: 0;
+      font-size: 15px; }
+  @media only screen and (min-width: 40.063em) {
+    .notepad-content .notepad-index-post .notepad-post-excerpt {
+      text-align: left; } }
+  .notepad-content .notepad-index-post .notepad-index-post-tags {
+    font-size: 0.8125rem;
+    color: #262626;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem; }
+    .notepad-content .notepad-index-post .notepad-index-post-tags a {
+      display: inline-block;
+      padding: 0.3125rem 0.9375rem;
+      margin-right: 0.1875rem;
+      color: #262626;
+      border: 0.0625rem solid #262626;
+      border-radius: 0.125rem;
+      margin-bottom: 0.3125rem; }
+      .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
+        color: #ff3373;
+        border: 0.0625rem solid #ff3373; }
+  @media only screen and (min-width: 40.063em) {
+    .notepad-content .notepad-index-post .notepad-index-post-tags {
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      text-align: left;
+      float: left; } }
+  .notepad-content .notepad-index-post .notepad-post-read-more {
+    display: block;
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5625rem;
+    font-size: 0.8125rem;
+    color: white;
+    background-color: #262626;
+    font-weight: 600;
+    padding: 0.625rem 2.5rem;
+    text-transform: uppercase;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    width: 60%;
+    border-radius: 0.125rem; }
+    .notepad-content .notepad-index-post .notepad-post-read-more:hover {
+      background-color: #ff3373; }
+  @media only screen and (min-width: 40.063em) {
+    .notepad-content .notepad-index-post .notepad-post-read-more {
+      width: auto;
+      float: left;
+      margin-left: 0;
+margin-right: 0.3125rem; } }

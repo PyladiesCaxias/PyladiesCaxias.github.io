@@ -1,18 +1,23 @@
 {% extends "base.html" %}
 {% block content_title %}{% endblock %}
 {% block content %}
+
 {% if articles %}
         {% for article in (articles_page.object_list if articles_page else articles) %}
-        <div class="article">
-                <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
-                <hr />
+
+            <div class="article">
+                <div class="">
+                    <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date.day }}/{{ article.date.month }} - {{ article.title }}</a></h1>
+                </div>
+            <div class="">
+
                 <div class="small">{% include "article_infos.html" %}</div>
                 <br />
                 <div class="summary">{{ article.summary }}
-                        <a class="btn primary xsmall" href="{{ SITEURL }}/{{ article.url }}">ler mais ...</a>
+                    <p><a class="btn btn-primary" href="{{ SITEURL }}/{{ article.url }}" role="button">View details »</a></p>
                 </div>
-        </div>
-        <hr />
+                </div>
+            </div>
         {% endfor %}
 {% endif %}
 

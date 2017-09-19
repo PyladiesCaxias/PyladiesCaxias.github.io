@@ -19,3 +19,32 @@
 a{
     color: #7e2c74;
 }
+
+.article-info, .article-info a:link, .article-info a:active{
+    color: #777;
+    font-size: 13px;
+}
+
+.info-destaque{
+    font-weight: bold;
+    padding-right: 5px;
+    padding-lefth: 5px;
+
+}
+
+.article-info a:hover{
+    color: #7e2c74;
+    text-decoration: none;
+}
+
+#content img{
+    text-align: center;
+}
+
+.article .summary{
+    text-align: center;
+}
+
+.title {
+    color: #f20032;
+}
