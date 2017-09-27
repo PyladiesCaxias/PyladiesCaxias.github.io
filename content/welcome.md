@@ -4,21 +4,17 @@ category: pyladies
 Date: 2017-07-01 00:00
 
 
+### Seja Bem-Vinda
+
 ![Pyladies Caxias]({filename}/images/icones/logo.jpg){: width=200px; max-height=200px; text-align=center}
 
 
 O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica.
-Queremos mudar essa realidade de poucas garotas em uma área tão rica e fantásticas como a computação. E olhe que temos muita história
-nesse campo viu?!
+Queremos mudar essa realidade de poucas garotas em uma área tão rica e fantásticas como a computação.
 
-Nosso desejo é mostrar às meninas que não há limites para sua capacidade intelectual. Se o desejo delas é escrever linhas de código. Pá!
-Façam isso. Se quiserem desenvolver super sistemas embarcados. Pá! Desenvolvam. Se querem só brincar fazendo algumas linhas de script
-python. Pá! Brinquem. E se quiserem revolucionar o mundo mesmo sem ter seu código fonte. Pá! Revolucionem. Por que vocês são capazes.
+Este site foi desenvolvido no Sprint da 1° Conferência Python Sul 2017. Veja as fotos do sprint:
 
-Nosso propósito não é segregar, pelo contrário, queremos criar o ambiente para que mais meninas sejam atraídas pela tecnologia. Nosso
-desejo é fazer com que elas nos vejam e pensem “Eu quero estar ai também!”.
-
-O Pyladies Caxias é um grupo da região de **Caxias do Sul e Serra Gaúcha**, que pertence ao grupo
-[Pyladies Brasil](http://brasil.pyladies.com/).
+![Sprint Python Sul]({filename}/images/pythonsul/sprint.jpg)
+![Sprint Python Sul 2]({filename}/images/pythonsul/sprint2.jpg)
 
 Bem vind@s!
