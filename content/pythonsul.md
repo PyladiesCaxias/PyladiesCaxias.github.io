@@ -4,7 +4,7 @@ category: Eventos
 tags: eventos, python
 Date: 2017-09-08 15:10
 comments: True
-
+summary: A [Python Sul](http://pythonsul.org/) reuniu pessoas durante 3 dias, 8,9 e 10 de setembro, para discutir sobre software livre, práticas de desenvolvimento e Python.
 
 ## 1° Conferência das communidades Python da Região Sul
 

@@ -57,49 +57,49 @@
 
   <body>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
-          <div class="nav-collapse">
-            <ul class="nav">
+    <nav class="navbar navbar-expand-md  fixed-top bg-white">
+        <a class="navbar-brand" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
               {% for title, link in MENUITEMS %}
-                  <li><a href="{{ link }}">{{ title }}</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ link }}">{{ title }}</a></li>
               {% endfor %}
               {% if DISPLAY_PAGES_ON_MENU %}
               {% for page in pages %}
-                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
               {% endfor %}
               {% endif %}
               {% if DISPLAY_CATEGORIES_ON_MENU %}
               {% for cat, null in categories %}
                   <li {% if cat == category %}class="active"{% endif %}>
-                    <a href="{{ SITEURL }}/{{ cat.url }}">
+                    <a class="nav-link" href="{{ SITEURL }}/{{ cat.url }}">
 						<i class="icon-folder-open icon-large"></i>{{ cat }}
 					</a>
                   </li>
               {% endfor %}
               {% endif %}
-            </ul>
-          </div><!--/.nav-collapse -->
+          </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type="text">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
         </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
+    </nav>
+    {% block jumbotron %}{% endblock %}
+    <div class="container">
       <div class="row">
-        <div class="span12" id="content">
+        <div class="col-md-10" id="content">
             {% block content %}
             {% endblock %}
         </div><!--/span-->
 
-          <div class="span2 sidebar-nav well hidden-xs" id="sidebar">
-          {% include 'sidebar.html' %}
+          <div class="col-md-2 sidebar-nav hidden-xs" id="sidebar">
+
+            {% include 'sidebar.html' %}
           </div>    <!--/.well -->
 
         </div><!--/row-->

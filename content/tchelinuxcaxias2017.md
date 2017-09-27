@@ -3,6 +3,7 @@ description: PyLadies Caxias
 category: Proximos Eventos
 tags: linux
 Date: 2017-10-21 08:30
+summary: Tchelinux é um grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no ***dia 21 de outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias***. O evento é gratuito.
 
 ## Sobre o Evento
 

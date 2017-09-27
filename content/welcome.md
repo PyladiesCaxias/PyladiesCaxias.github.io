@@ -3,9 +3,6 @@ description: PyLadies Caxias
 category: pyladies
 Date: 2017-07-01 00:00
 
-
-### Seja Bem-Vinda
-
 ![Pyladies Caxias]({filename}/images/icones/logo.jpg){: width=200px; max-height=200px; text-align=center}
 
 
