@@ -42,7 +42,8 @@ MENUITEMS = (
 
 # Blogroll
 LINKS = (('Python.org', 'http://python.org/'),
-         ('Pyladies Brasil', 'http://brasil.pyladies.com/'),)
+         ('Pyladies Brasil', 'http://brasil.pyladies.com/'),
+         ('Python Brasil', 'http://python.org.br/'),)
 
 # Blogroll
 SOCIAL = (('facebook', 'https://www.facebook.com/Pyladies-Caxias-1858294514418047/'),
@@ -54,5 +55,5 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 PLUGINS = [
-    'pelican_youtube',
+    'pelican_youtube'
 ]

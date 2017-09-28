@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content_title %}{% endblock %}
 {% block jumbotron %}
-<div class="jumbotron">
+<div class="jumbotron pyladiesJumbotron">
   <div class="container">
-    <h1 class="display-3">print('Welcome')</h1>
+    <h1 class="display-3">Pyladies Caxias do Sul</h1>
     <p>O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica.
     Queremos mudar essa realidade de poucas garotas em uma área tão rica e fantásticas como a computação.
     </p>
@@ -13,46 +13,38 @@
 {% endblock %}
 {% block content %}
 
-<div class="container">
     {% if articles %}
-
     <div class="row">
-
         {% for article in (articles_page.object_list if articles_page else articles) %}
-        <div class="col-md-4">
+        <div class="col-md-5 py-events">
             <h4><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date.day }}/{{ article.date.month }} - {{ article.title }}</a></h2>
 
             <small>{% include "article_infos.html" %}</small>
             <br />
             <p>{{ article.summary }}</p>
-            <p><a class="btn btn-primary btn-pydefault" href="{{ SITEURL }}/{{ article.url }}" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary btn-sm btn-pydefault" href="{{ SITEURL }}/{{ article.url }}" role="button">Ver mais »</a></p>
+
         </div>
-        <hr />
         {% endfor %}
     </div>
-
     {% endif %}
 
-    {% if articles_page and articles_paginator.num_pages > 1 %}
-    <div class="pagination">
-    <ul>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination pagination-sm justify-content-center">
             {% if articles_page.has_previous() %}
                     {% set num = articles_page.previous_page_number() %}
-                    <li class="prev"><a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">&larr; Previous</a></li>
+                    <li class="page-item"><a class="page-link" aria-label="Previous" href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html"> Previous</a></li>
             {% else %}
-                    <li class="prev disabled"><a href="#">&larr; Previous</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous">Anterior</a></li>
             {% endif %}
             {% for num in range( 1, 1 + articles_paginator.num_pages ) %}
-                    <li class="{{ 'active' if num == articles_page.number else '' }}"><a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">{{ num }}</a></li>
+                    <li class="page-item {{ 'active' if num == articles_page.number else '' }}"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">{{ num }}</a></li>
             {% endfor %}
             {% if articles_page.has_next() %}
-                    <li class="next"><a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">Next &rarr;</a></li>
+                    <li class="page-item" ><a class="page-link" aria-label="Next" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">Next</a></li>
             {% else %}
-                    <li class="next disabled"><a href="#">&rarr; Next</a></li>
+                    <li class="page-item disabled"><a class="page-link" aria-label="Next" href="#">Próximo</a></li>
             {% endif %}
-    </ul>
-    </div>
-    {% endif %}
-
-</div>
+        </ul>
+    </nav>
 {% endblock content %}

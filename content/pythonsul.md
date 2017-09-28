@@ -30,10 +30,21 @@ A Python Sul 2017 é organizada pela comunidade Python do Rio Grande do Sul, com
 O Payladies Caxias junto com o Pyladies POA, fez uma palestra na Python Sul: **"PyLadies: mulheres aprendendo (e ensinando) a programar"**.
 Confiram a palestra no link: [Palestra PDF]({filename}/pdfs/PyLadies.pdf)
 
-![Python Sul]({filename}/images/pythonsul/FB_IMG_1505305449476.jpg){: width=400px; max-height=400px;}
-![Pylestra]({filename}/images/pythonsul/FB_IMG_1505305565085.jpg){: width=400px; max-height=400px;}
+## Sprint Pyladies
 
-![Foto Oficial]({filename}/images/pythonsul/FB_IMG_1505318985556.jpg){: width=400px; max-height=400px;}
-![Organizacao]({filename}/images/pythonsul/FB_IMG_1505329694796.jpg){: width=400px; max-height=400px;}
+No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do Pyladies Caxias. Veja as fotos do sprint:
 
-![Pyladies]({filename}/images/pythonsul/FB_IMG_1505340925683.jpg){: width=400px; max-height=400px;}
+![Sprint Python Sul]({filename}/images/pythonsul/sprint.jpg)
+![Sprint Python Sul 2]({filename}/images/pythonsul/sprint2.jpg)
+
+Você pode ver os videos das palestras no canal do Youtube do Rede Neural: [Rede Neural](https://www.youtube.com/channel/UCjqV6ib-IdDCICWKlnNiwhg)
+
+Confira algumas fotos do evento:
+
+![Python Sul]({filename}/images/pythonsul/FB_IMG_1505305449476.jpg){: width=500px; }
+![Pylestra]({filename}/images/pythonsul/FB_IMG_1505305565085.jpg){: width=500px; }
+
+![Foto Oficial]({filename}/images/pythonsul/FB_IMG_1505318985556.jpg){: width=500px; }
+![Organizacao]({filename}/images/pythonsul/FB_IMG_1505329694796.jpg){: width=500px; }
+
+![Pyladies]({filename}/images/pythonsul/FB_IMG_1505340925683.jpg){: width=500px; }

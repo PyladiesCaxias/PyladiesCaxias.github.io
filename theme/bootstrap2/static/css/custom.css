@@ -1,3 +1,10 @@
+body{
+    padding-top: 70px;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 .navbar-inner{
     background: #7e2c74;
 }
@@ -16,8 +23,13 @@
     background: #CA74C0;
     color: #7e2c74;
 }
-a{
+a, a:hover{
     color: #7e2c74;
+}
+
+a:hover{
+    opacity: 0.7;
+    text-decoration: none;
 }
 
 .article-info, .article-info a:link, .article-info a:active{
@@ -45,6 +57,31 @@ a{
     text-align: center;
 }
 
-.title {
-    color: #f20032;
+h1{
+    color: #7e2c74;
+}
+
+.title, h2{
+    color: #e88bdd;
+}
+
+.list-group-item{
+    font-size: 14px;
+}
+
+.pyladiesJumbotron{
+    background-color: #f6f0f6;
+}
+
+.logo_pyladies{
+    height: 40px;
+}
+
+nav.navbar{
+    box-shadow: 0px 5px 5px #ccc;
+}
+
+.py-events{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 20px;
 }
