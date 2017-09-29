@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias - Proximos Eventos</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/proximos-eventos.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-10-21T08:30:00-02:00</updated><entry><title>Tchelinux Caxias</title><link href="https://pyladiescaxias.github.io/site/tchelinux-caxias.html" rel="alternate"></link><published>2017-10-21T08:30:00-02:00</published><updated>2017-10-21T08:30:00-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-21:/site/tchelinux-caxias.html</id><summary type="html">&lt;h2&gt;Sobre o Evento&lt;/h2&gt;
-&lt;p&gt;O grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no &lt;strong&gt;&lt;em&gt;dia 21 de
-outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2&gt;Inscrições&lt;/h2&gt;
-&lt;p&gt;O evento tem entrada franca, porém os participantes são …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Sobre o Evento&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias - Proximos Eventos</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/proximos-eventos.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-10-21T08:30:00-02:00</updated><entry><title>Tchelinux Caxias</title><link href="https://pyladiescaxias.github.io/site/tchelinux-caxias.html" rel="alternate"></link><published>2017-10-21T08:30:00-02:00</published><updated>2017-10-21T08:30:00-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-21:/site/tchelinux-caxias.html</id><summary type="html">&lt;p&gt;Tchelinux é um grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no &lt;strong&gt;&lt;em&gt;dia 21 de outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias&lt;/em&gt;&lt;/strong&gt;. O evento é gratuito.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Sobre o Evento&lt;/h2&gt;
 &lt;p&gt;O grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no &lt;strong&gt;&lt;em&gt;dia 21 de
 outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;Inscrições&lt;/h2&gt;
 &lt;p&gt;O evento tem entrada franca, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que serão doados
 instituições de caridade da região.&lt;/p&gt;
-&lt;h2&gt;Chamada de Trabalhos&lt;/h2&gt;
-&lt;p&gt;O evento está com a chamada de trabalhos aberta até dia 24 de setembro de 2017.
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfj1gsQL8O-05JPTudiUUwH9T861sbRK7Nj-52vzW6GgxKs5g/viewform"&gt;Chamada de Trabalhos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Local&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNIFTEC Caxias do Sul -Bloco D - Arquitetura e Design&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mais informações em: &lt;a href="https://caxias.tchelinux.org/"&gt;Tchelinux Caxias&lt;/a&gt;&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>Pyladies Caxias - Encontro Outubro</title><link href="https://pyladiescaxias.github.io/site/pyladies-caxias-encontro-outubro.html" rel="alternate"></link><published>2017-10-07T00:00:00-03:00</published><updated>2017-10-07T00:00:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-07:/site/pyladies-caxias-encontro-outubro.html</id><summary type="html">&lt;h1&gt;Próximo encontro: 07/10!&lt;/h1&gt;
-&lt;p&gt;O Pyladies Caxias de outubro está marcado!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Local:&lt;/strong&gt; Universidade de Caxias do Sul - Bloco 71 sala 202&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Data:&lt;/strong&gt;  07 de outubro - sábado&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Horário:&lt;/strong&gt; 9 horas às 12 horas&lt;/p&gt;
-&lt;h2&gt;O que faremos?&lt;/h2&gt;
-&lt;p&gt;Entre os assuntos abordados nesse encontro, teremos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Revisar e terminar o Tutorial Django Girls (Iniciado …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Próximo encontro: 07/10!&lt;/h1&gt;
+&lt;p&gt;Mais informações em: &lt;a href="https://caxias.tchelinux.org/"&gt;Tchelinux Caxias&lt;/a&gt;&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>Encontro Pyladies</title><link href="https://pyladiescaxias.github.io/site/encontro-pyladies.html" rel="alternate"></link><published>2017-10-07T00:00:00-03:00</published><updated>2017-10-07T00:00:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-07:/site/encontro-pyladies.html</id><summary type="html">&lt;p&gt;O Próximo encontro do Pyladies Caxias será dia 07 de outubro, na &lt;strong&gt;Universidade de Caxias do Sul - Bloco 71 sala 202  - 9 horas às 12 horas.&lt;/strong&gt; Não perca!!&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Próximo encontro: 07/10!&lt;/h1&gt;
 &lt;p&gt;O Pyladies Caxias de outubro está marcado!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Local:&lt;/strong&gt; Universidade de Caxias do Sul - Bloco 71 sala 202&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Data:&lt;/strong&gt;  07 de outubro - sábado&lt;/p&gt;

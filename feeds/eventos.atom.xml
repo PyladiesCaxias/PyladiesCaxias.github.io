@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias - Eventos</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/eventos.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-09-08T15:10:00-03:00</updated><entry><title>Python Sul 2017</title><link href="https://pyladiescaxias.github.io/site/python-sul-2017.html" rel="alternate"></link><published>2017-09-08T15:10:00-03:00</published><updated>2017-09-08T15:10:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-09-08:/site/python-sul-2017.html</id><summary type="html">&lt;h2&gt;1° Conferência das communidades Python da Região Sul&lt;/h2&gt;
-&lt;p&gt;A &lt;a href="http://pythonsul.org/"&gt;Python Sul&lt;/a&gt; reuniu pessoas durante 3 dias, 8,9 e 10 de setembro, para discutir sobre software livre, práticas de
-desenvolvimento e Python.&lt;/p&gt;
-&lt;h2&gt;Organização&lt;/h2&gt;
-&lt;p&gt;A Python Sul 2017 é organizada pela comunidade Python do Rio Grande do Sul, com a ajuda …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1° Conferência das communidades Python da Região Sul&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias - Eventos</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/eventos.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-09-08T15:10:00-03:00</updated><entry><title>Python Sul 2017</title><link href="https://pyladiescaxias.github.io/site/python-sul-2017.html" rel="alternate"></link><published>2017-09-08T15:10:00-03:00</published><updated>2017-09-08T15:10:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-09-08:/site/python-sul-2017.html</id><summary type="html">&lt;p&gt;A &lt;a href="http://pythonsul.org/"&gt;Python Sul&lt;/a&gt; reuniu pessoas durante 3 dias, 8,9 e 10 de setembro, para discutir sobre software livre, práticas de desenvolvimento e Python.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1° Conferência das communidades Python da Região Sul&lt;/h2&gt;
 &lt;p&gt;A &lt;a href="http://pythonsul.org/"&gt;Python Sul&lt;/a&gt; reuniu pessoas durante 3 dias, 8,9 e 10 de setembro, para discutir sobre software livre, práticas de
 desenvolvimento e Python.&lt;/p&gt;
 &lt;h2&gt;Organização&lt;/h2&gt;
@@ -15,23 +11,42 @@ desenvolvimento e Python.&lt;/p&gt;
 &lt;h2&gt;Palestra Pyladies&lt;/h2&gt;
 &lt;p&gt;O Payladies Caxias junto com o Pyladies POA, fez uma palestra na Python Sul: &lt;strong&gt;"PyLadies: mulheres aprendendo (e ensinando) a programar"&lt;/strong&gt;.
 Confiram a palestra no link: &lt;a href="https://pyladiescaxias.github.io/site/pdfs/PyLadies.pdf"&gt;Palestra PDF&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Python Sul" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505305449476.jpg" width="400px;"&gt;
-&lt;img alt="Pylestra" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505305565085.jpg" width="400px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto Oficial" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505318985556.jpg" width="400px;"&gt;
-&lt;img alt="Organizacao" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505329694796.jpg" width="400px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Pyladies" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505340925683.jpg" width="400px;"&gt;&lt;/p&gt;</content><category term="eventos"></category><category term="python"></category></entry><entry><title>Django Girls Caxias do Sul</title><link href="https://pyladiescaxias.github.io/site/django-girls-caxias-do-sul.html" rel="alternate"></link><published>2017-09-07T15:10:00-03:00</published><updated>2017-09-07T15:10:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-09-07:/site/django-girls-caxias-do-sul.html</id><summary type="html">&lt;p&gt;Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
-antecedendo a &lt;a href="http://pythonsul.org/"&gt;Python Sul 2017&lt;/a&gt;.
-Neste &lt;a href="https://djangogirls.org/caxiasdosul/"&gt;1° Django Girls Caxias do Sul&lt;/a&gt; as mulheres conseguiram conhecer um pouco de programação
-seguindo o tutorial do &lt;a href="https://tutorial.djangogirls.org/pt/"&gt;Django Girls …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
-antecedendo a &lt;a href="http://pythonsul.org/"&gt;Python Sul 2017&lt;/a&gt;.
-Neste &lt;a href="https://djangogirls.org/caxiasdosul/"&gt;1° Django Girls Caxias do Sul&lt;/a&gt; as mulheres conseguiram conhecer um pouco de programação
-seguindo o tutorial do &lt;a href="https://tutorial.djangogirls.org/pt/"&gt;Django Girls&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto Oficial" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/DG/36775167500_0905ba9bc2_z.jpg" width="400px;"&gt;
-&lt;img alt="Treinadoras" max-height="400px;" src="https://pyladiescaxias.github.io/site/images/DG/36982957166_e3ff38ffbf_z.jpg" width="400px;"&gt;&lt;/p&gt;</content><category term="eventos"></category><category term="django_girls"></category><category term="python"></category><category term="pyladies poa"></category></entry><entry><title>1° Encontro Pyladies</title><link href="https://pyladiescaxias.github.io/site/1deg-encontro-pyladies.html" rel="alternate"></link><published>2017-07-15T09:10:00-03:00</published><updated>2017-07-16T09:10:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-07-15:/site/1deg-encontro-pyladies.html</id><summary type="html">&lt;p&gt;O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul. O evento contou com a presença
-das Pyladies POA e alunas da Universidade.&lt;/p&gt;
-&lt;img alt="Primeiro encontro pyladies caxias" src="images/1encontro.jpg" /&gt;
-&lt;p&gt;Veja o video feito pelos professores da UCS, para divulgação do nosso grupo. &amp;lt;3&lt;/p&gt;
-&lt;div class="youtube youtube-16x9"&gt;&lt;iframe src="https://www.youtube.com/embed/7EV9wxhrUaI" allowfullscreen seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul. O evento contou com a presença
+&lt;h2&gt;Sprint Pyladies&lt;/h2&gt;
+&lt;p&gt;No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do Pyladies Caxias. Veja as fotos do sprint:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Sprint Python Sul" src="https://pyladiescaxias.github.io/site/images/pythonsul/sprint.jpg"&gt;
+&lt;img alt="Sprint Python Sul 2" src="https://pyladiescaxias.github.io/site/images/pythonsul/sprint2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Você pode ver os videos das palestras no canal do Youtube do Rede Neural: &lt;a href="https://www.youtube.com/channel/UCjqV6ib-IdDCICWKlnNiwhg"&gt;Rede Neural&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Confira algumas fotos do evento:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Python Sul" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505305449476.jpg" width="500px;"&gt;
+&lt;img alt="Pylestra" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505305565085.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto Oficial" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505318985556.jpg" width="500px;"&gt;
+&lt;img alt="Organizacao" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505329694796.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Pyladies" src="https://pyladiescaxias.github.io/site/images/pythonsul/FB_IMG_1505340925683.jpg" width="500px;"&gt;&lt;/p&gt;</content><category term="eventos"></category><category term="python"></category></entry><entry><title>Django Girls Caxias do Sul</title><link href="https://pyladiescaxias.github.io/site/django-girls-caxias-do-sul.html" rel="alternate"></link><published>2017-09-07T15:10:00-03:00</published><updated>2017-09-07T15:10:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-09-07:/site/django-girls-caxias-do-sul.html</id><summary type="html">&lt;p&gt;Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
+antecedendo a &lt;a href="http://pythonsul.org/"&gt;Python Sul 2017&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contamos com o apoio das &lt;a href="https://pyladiespoa.pythonanywhere.com/"&gt;Pyladies POA&lt;/a&gt;, fizemos uma oficina Django Girls para introduzir meninas e mulheres à programação com Python …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
+antecedendo a &lt;a href="http://pythonsul.org/"&gt;Python Sul 2017&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contamos com o apoio das &lt;a href="https://pyladiespoa.pythonanywhere.com/"&gt;Pyladies POA&lt;/a&gt;, fizemos uma oficina Django Girls para introduzir meninas e mulheres à programação com Python. Ficamos muitíssimo felizes de termos participantes tanto da região de Caxias do Sul quanto de outras querendo aprender a programar e a fazer um site. Contamos com voluntárias e voluntários que vieram de Porto Alegre para Caxias do Sul para ajudar esse evento ser um sucesso. Quer conferir como foi? Dê uma olhada nas fotos do evento, &lt;a href="https://www.flickr.com/photos/djangogirls/36775165820/in/album-72157688344750416/"&gt;clicando aqui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Confira algumas fotos da oficina:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto Oficial" src="https://pyladiescaxias.github.io/site/images/DG/36775167500_0905ba9bc2_z.jpg" width="500px;"&gt;
+&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/site/images/DG/36775137760_4fb6dd842d_o.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 3" src="https://pyladiescaxias.github.io/site/images/DG/36358447643_8d7ba96f89_o.jpg" width="500px;"&gt;
+&lt;img alt="Treinadoras" src="https://pyladiescaxias.github.io/site/images/DG/36982957166_e3ff38ffbf_z.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 4" src="https://pyladiescaxias.github.io/site/images/DG/36775102870_a4039b3136_o.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;h3&gt;Links Importantes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tutorial.djangogirls.org/pt/"&gt;Tutorial Django Girls&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/document/d/15asJrEfA6FvN1jHBqYwVDWc_e1MsUo9YH_on5HYR_Cc/edit"&gt;Tutorial Django Girls Caxias do Sul&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Próximos Django Girls&lt;/h3&gt;
+&lt;p&gt;Em 2018 teremos 5 Django Girls no Rio Grande do Sul &amp;lt;3:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://djangogirls.org/portoalegre/"&gt;Django Girls POA&lt;/a&gt; - 23 e 24 de março&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://djangogirls.org/santamaria/"&gt;Django Girls Santa Maria&lt;/a&gt; - 06 e 07 de abril&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://djangogirls.org/canoas/"&gt;Django Girls Canoas&lt;/a&gt; - 04 e 05 de maio&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://djangogirls.org/bentogoncalves/"&gt;Django Girls Bento Gonçalves&lt;/a&gt; - 19 de maio&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://djangogirls.org/caxiasdosul/"&gt;Django Girls Caxias do Sul&lt;/a&gt; - setembro (data à definir)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="eventos"></category><category term="django_girls"></category><category term="python"></category><category term="pyladies poa"></category></entry><entry><title>1° Encontro Pyladies</title><link href="https://pyladiescaxias.github.io/site/1deg-encontro-pyladies.html" rel="alternate"></link><published>2017-07-15T09:10:00-03:00</published><updated>2017-07-16T09:10:00-03:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-07-15:/site/1deg-encontro-pyladies.html</id><summary type="html">&lt;p class="first last"&gt;O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul. O evento contou com a presença
 das Pyladies POA e alunas da Universidade.&lt;/p&gt;
 &lt;img alt="Primeiro encontro pyladies caxias" src="images/1encontro.jpg" /&gt;
 &lt;p&gt;Veja o video feito pelos professores da UCS, para divulgação do nosso grupo. &amp;lt;3&lt;/p&gt;

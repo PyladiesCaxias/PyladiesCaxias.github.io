@@ -31,7 +31,8 @@
      }
     </style>
     <link href="https://pyladiescaxias.github.io/site/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="https://pyladiescaxias.github.io/site/theme/css/bootstrap2.min.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/style.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/bootstrap2.css" rel="stylesheet">
     <link href="https://pyladiescaxias.github.io/site/theme/css/font-awesome.css" rel="stylesheet">
     <link href="https://pyladiescaxias.github.io/site/theme/css/pygments.css" rel="stylesheet">
     <link href="https://pyladiescaxias.github.io/site/theme/css/custom.css" rel="stylesheet">
@@ -42,150 +43,131 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="https://pyladiescaxias.github.io/site/theme/images/icones/favicon.ico">
+    <link rel="shortcut icon" href="https://pyladiescaxias.github.io/site/images/icones/favicon.ico">
     <link rel="apple-touch-icon" href="https://pyladiescaxias.github.io/site/theme/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="https://pyladiescaxias.github.io/site/theme/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="https://pyladiescaxias.github.io/site/theme/images/apple-touch-icon-114x114.png">
 
     <link href="https://pyladiescaxias.github.io/site/" type="application/atom+xml" rel="alternate" title="Pyladies Caxias ATOM Feed" />
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="https://pyladiescaxias.github.io/site/index.html">Pyladies Caxias </a>
-          <div class="nav-collapse">
-            <ul class="nav">
-                <li><a href="https://pyladiescaxias.github.io/site/sobre/">Sobre</a></li>
-                <li><a href="https://pyladiescaxias.github.io/site/eventos/">Eventos</a></li>
-                <li><a href="https://pyladiescaxias.github.io/site/duvidas-frequentes/">Dúvidas Frequentes</a></li>
+    <nav class="navbar navbar-expand-md  fixed-top bg-white">
+        <a class="navbar-brand" href="https://pyladiescaxias.github.io/site/index.html"><img class="logo_pyladies" src="https://pyladiescaxias.github.io/site/images/icones/g4390.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                          <!-- <ul class="nav pull-right">
-                                <li><a href="https://pyladiescaxias.github.io/site/archives.html"><i class="icon-th-list"></i>Archives</a></li>
-                          </ul> -->
-
-            </ul>
-            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
-          </div><!--/.nav-collapse -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/sobre/">Sobre</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/eventos/">Eventos</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/duvidas/">Dúvidas?</a>
+          </div>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type="text">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
         </div>
-      </div>
-    </div>
-
+    </nav>
+<div class="jumbotron pyladiesJumbotron">
+  <div class="container">
+    <h1 class="display-3">Pyladies Caxias</h1>
+    <p>O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica.
+    Queremos mudar essa realidade de poucas garotas em uma área tão rica e fantásticas como a computação.
+    </p>
+    <p><a class="btn btn-primary py-button" href="https://pyladiescaxias.github.io/site/sobre" role="button">Ler mais »</a></p>
+  </div>
+</div>
     <div class="container-fluid">
       <div class="row">
-        <div class="span9" id="content">
-        <div class="article">
-                <h1><a href="https://pyladiescaxias.github.io/site/django-girls-caxias-do-sul.html">Django Girls Caxias do Sul</a></h1>
-                <hr />
-                <div class="small"><footer class="post-info">
-<span class="label">Date</span>
-<abbr class="published" title="2017-09-07T15:10:00-03:00">
-        <i class="icon-calendar"></i>07-09-2017
-</abbr>
-<span class="label">By</span>
-<a href="https://pyladiescaxias.github.io/site/author/pyladies.html"><i class="icon-user"></i>Pyladies</a>
-<span class="label">Category</span>
-<a href="https://pyladiescaxias.github.io/site/category/eventos.html"><i class="icon-folder-open"></i>Eventos</a>.
+        <div class="col-md-10" id="content">
+
+    <div class="row">
+        <div class="col-md-5 py-events">
+            <h4><a href="https://pyladiescaxias.github.io/site/django-girls-caxias-do-sul.html">7/9 - Django Girls Caxias do Sul</a></h2>
+
+            <small><div class="post-info article-info">
+    <span class="info-destaque">Data:</span>
+    <span>
+        07-09-2017
+    </span>
+    <span class="info-destaque">Categoria:</span>
+    <a href="https://pyladiescaxias.github.io/site/category/eventos.html"><i class="icon-folder-open"></i>Eventos</a>
 
 
-<span class="label">Tags</span>
+<span class="info-destaque">Tags:</span>
 	<a href="https://pyladiescaxias.github.io/site/tag/eventos.html"><i class="icon-tag"></i>eventos</a>
 	<a href="https://pyladiescaxias.github.io/site/tag/django_girls.html"><i class="icon-tag"></i>django_girls</a>
 	<a href="https://pyladiescaxias.github.io/site/tag/python.html"><i class="icon-tag"></i>python</a>
 	<a href="https://pyladiescaxias.github.io/site/tag/pyladies-poa.html"><i class="icon-tag"></i>pyladies poa</a>
-</footer><!-- /.post-info --></div>
-                <br />
-                <div class="summary"><p>Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
-antecedendo a <a href="http://pythonsul.org/">Python Sul 2017</a>.
-Neste <a href="https://djangogirls.org/caxiasdosul/">1° Django Girls Caxias do Sul</a> as mulheres conseguiram conhecer um pouco de programação
-seguindo o tutorial do <a href="https://tutorial.djangogirls.org/pt/">Django Girls …</a></p>
-                        <a class="btn primary xsmall" href="https://pyladiescaxias.github.io/site/django-girls-caxias-do-sul.html">ler mais ...</a>
-                </div>
+</div><!-- /.post-info --></small>
+            <br />
+            <p><p>Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
+antecedendo a <a href="http://pythonsul.org/">Python Sul 2017</a>.</p>
+<p>Contamos com o apoio das <a href="https://pyladiespoa.pythonanywhere.com/">Pyladies POA</a>, fizemos uma oficina Django Girls para introduzir meninas e mulheres à programação com Python …</p></p>
+            <p><a class="btn btn-secondary btn-sm btn-pydefault" href="https://pyladiescaxias.github.io/site/django-girls-caxias-do-sul.html" role="button">Ver mais »</a></p>
+
         </div>
-        <hr />
-        <div class="article">
-                <h1><a href="https://pyladiescaxias.github.io/site/1deg-encontro-pyladies.html">1° Encontro Pyladies</a></h1>
-                <hr />
-                <div class="small"><footer class="post-info">
-<span class="label">Date</span>
-<abbr class="published" title="2017-07-15T09:10:00-03:00">
-        <i class="icon-calendar"></i>15-07-2017
-</abbr>
-<span class="label">By</span>
-<a href="https://pyladiescaxias.github.io/site/author/pyladies.html"><i class="icon-user"></i>Pyladies</a>
-<span class="label">Category</span>
-<a href="https://pyladiescaxias.github.io/site/category/eventos.html"><i class="icon-folder-open"></i>Eventos</a>.
+        <div class="col-md-5 py-events">
+            <h4><a href="https://pyladiescaxias.github.io/site/1deg-encontro-pyladies.html">15/7 - 1° Encontro Pyladies</a></h2>
+
+            <small><div class="post-info article-info">
+    <span class="info-destaque">Data:</span>
+    <span>
+        15-07-2017
+    </span>
+    <span class="info-destaque">Categoria:</span>
+    <a href="https://pyladiescaxias.github.io/site/category/eventos.html"><i class="icon-folder-open"></i>Eventos</a>
 
 
-<span class="label">Tags</span>
+<span class="info-destaque">Tags:</span>
 	<a href="https://pyladiescaxias.github.io/site/tag/eventos.html"><i class="icon-tag"></i>eventos</a>
 	<a href="https://pyladiescaxias.github.io/site/tag/encontros.html"><i class="icon-tag"></i>encontros</a>
 	<a href="https://pyladiescaxias.github.io/site/tag/pyladies.html"><i class="icon-tag"></i>pyladies</a>
 	<a href="https://pyladiescaxias.github.io/site/tag/pyladies-poa.html"><i class="icon-tag"></i>pyladies poa</a>
-</footer><!-- /.post-info --></div>
-                <br />
-                <div class="summary"><p>O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul. O evento contou com a presença
-das Pyladies POA e alunas da Universidade.</p>
-<img alt="Primeiro encontro pyladies caxias" src="images/1encontro.jpg" />
-<p>Veja o video feito pelos professores da UCS, para divulgação do nosso grupo. &lt;3</p>
-<div class="youtube youtube-16x9"><iframe src="https://www.youtube.com/embed/7EV9wxhrUaI" allowfullscreen seamless frameBorder="0"></iframe></div>
-                        <a class="btn primary xsmall" href="https://pyladiescaxias.github.io/site/1deg-encontro-pyladies.html">ler mais ...</a>
-                </div>
-        </div>
-        <hr />
+</div><!-- /.post-info --></small>
+            <br />
+            <p><p class="first last">O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul.</p>
+</p>
+            <p><a class="btn btn-secondary btn-sm btn-pydefault" href="https://pyladiescaxias.github.io/site/1deg-encontro-pyladies.html" role="button">Ver mais »</a></p>
 
-        <!--                 <section id="content" class="body">
-                <h1>Pages</h1>
-                        <li><a href="https://pyladiescaxias.github.io/site/sobre/">Sobre</a></li>
-                        <li><a href="https://pyladiescaxias.github.io/site/eventos/">Eventos</a></li>
-                        <li><a href="https://pyladiescaxias.github.io/site/duvidas-frequentes/">Dúvidas Frequentes</a></li>
-                </section>
- -->
+        </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination pagination-sm justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous">Anterior</a></li>
+                    <li class="page-item active"><a class="page-link" href="https://pyladiescaxias.github.io/site/tag/pyladies-poa.html">1</a></li>
+                    <li class="page-item disabled"><a class="page-link" aria-label="Next" href="#">Próximo</a></li>
+        </ul>
+    </nav>
         </div><!--/span-->
 
-                  <div class="span3 sidebar-nav" id="sidebar">
-<ul class="nav nav-list">
+      <div class="col-md-2 sidebar-nav hidden-xs" id="sidebar">
 
-<li class="nav-header"><h4><i class="icon-home icon-large"></i>Social</h4></li>
-<li><a href="https://pyladiescaxias.github.io/site/feeds/all.atom.xml" rel="alternate"><i class="icon-bookmark icon-large"></i>atom feed</a></li>
-    <li><a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"><i class="icon-facebook-sign icon-large"></i>facebook</a></li>
-    <li><a href="https://github.com/PyladiesCaxias"><i class="icon-github-sign icon-large"></i>github</a></li>
-    <li><a href="pyladiescaxias@gmail.com"><i class="icon-pyladiescaxias@gmail.com-sign icon-large"></i>pyladiescaxias@gmail.com</a></li>
+<ul class="list-group">
 
-<li class="nav-header"><h4><i class="icon-external-link"></i>LINKS</h4></li>
-    <li><a href="http://python.org/"><i class="icon-external-link"></i>Python.org</a></li>
-    <li><a href="http://brasil.pyladies.com/"><i class="icon-external-link"></i>Pyladies Brasil</a></li>
+<li class="list-group-item disabled"><i class="icon-home icon-large"></i>Social</li>
+<li class="list-group-item"><a href="https://pyladiescaxias.github.io/site/feeds/all.atom.xml" rel="alternate"><i class="icon-bookmark icon-large"></i>atom feed</a></li>
+    <li class="list-group-item "><a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"><i class="icon-facebook-sign icon-large"></i>facebook</a></li>
+    <li class="list-group-item "><a href="https://github.com/PyladiesCaxias"><i class="icon-github-sign icon-large"></i>github</a></li>
+    <li class="list-group-item "><a href="pyladiescaxias@gmail.com"><i class="icon-pyladiescaxias@gmail.com-sign icon-large"></i>pyladiescaxias@gmail.com</a></li>
 
-<!-- <li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
-<li>
-<a href="https://pyladiescaxias.github.io/site/category/eventos.html">
-    <i class="icon-folder-open icon-large"></i>Eventos
-</a>
-</li>
-<li>
-<a href="https://pyladiescaxias.github.io/site/category/proximos-eventos.html">
-    <i class="icon-folder-open icon-large"></i>Proximos Eventos
-</a>
-</li>
-<li>
-<a href="https://pyladiescaxias.github.io/site/category/pyladies.html">
-    <i class="icon-folder-open icon-large"></i>pyladies
-</a>
-</li>
- -->
-
-<li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
+<li class="list-group-item disabled"><i class="icon-external-link"></i>LINKS</li>
+    <li class="list-group-item "><a href="http://python.org/"><i class="icon-external-link"></i>Python.org</a></li>
+    <li class="list-group-item "><a href="http://brasil.pyladies.com/"><i class="icon-external-link"></i>Pyladies Brasil</a></li>
+    <li class="list-group-item "><a href="http://python.org.br/"><i class="icon-external-link"></i>Python Brasil</a></li>
+    <li class="list-group-item "><a href="http://pycaxias.org/"><i class="icon-external-link"></i>PyCaxias</a></li>
 
 
-</ul>                  </div>    <!--/.well -->
+</ul>      </div>    <!--/.well -->
 
         </div><!--/row-->
     </div>
@@ -198,7 +180,7 @@ das Pyladies POA e alunas da Universidade.</p>
         </address><!-- /#about -->
       </footer>
 
-    
+
 
 
 
