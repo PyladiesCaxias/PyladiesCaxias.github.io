@@ -33,6 +33,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+GOOGLE_CUSTOM_SEARCH_SIDEBAR = False
+TWITTER_USERNAME = False
 
 MENUITEMS = (
     # ('Blog', '/archives.html'),

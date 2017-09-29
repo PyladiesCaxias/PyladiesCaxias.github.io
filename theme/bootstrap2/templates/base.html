@@ -60,7 +60,33 @@
   </head>
 
   <body>
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+        FB.init({
+          appId            : 'Pyladies-Caxias-1858294514418047',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.10'
+        });
+        FB.AppEvents.logPageView();
+        };
 
+        (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
     <nav class="navbar navbar-expand-md  fixed-top bg-white">
         <a class="navbar-brand" href="{{ SITEURL }}/index.html"><img class="logo_pyladies" src="{{ SITEURL }}/images/icones/g4390.png" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,13 +133,16 @@
         </div><!--/row-->
     </div>
     <hr>
-
-      <footer>
-        <address id="about">
+    <footer>
+        <div class="container">
+            <address id="about">
                 Site produzido em <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
-                                com a tecnologia <a href="http://python.org">Python <i class="icon-external-link"></i></a>.
-        </address><!-- /#about -->
-      </footer>
+                com a tecnologia <a href="http://python.org">Python <i class="icon-external-link"></i></a>.
+            </address><!-- /#about -->
+            
+        </div>
+    </footer>
+
 
 
 
