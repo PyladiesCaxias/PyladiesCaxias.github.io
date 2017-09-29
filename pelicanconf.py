@@ -43,7 +43,8 @@ MENUITEMS = (
 # Blogroll
 LINKS = (('Python.org', 'http://python.org/'),
          ('Pyladies Brasil', 'http://brasil.pyladies.com/'),
-         ('Python Brasil', 'http://python.org.br/'),)
+         ('Python Brasil', 'http://python.org.br/'),
+         ('PyCaxias', 'http://pycaxias.org/'),)
 
 # Blogroll
 SOCIAL = (('facebook', 'https://www.facebook.com/Pyladies-Caxias-1858294514418047/'),

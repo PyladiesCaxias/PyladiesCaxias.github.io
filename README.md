@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 Gerando a estrutura do projeto:  
 ```
-pelican content -t theme/bootstrap2/
+pelican content
 ```
 
 ## Executando o projeto local
