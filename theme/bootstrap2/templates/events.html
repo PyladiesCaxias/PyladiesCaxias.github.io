@@ -1,9 +1,12 @@
 {% extends "base.html" %}
+{% block jumbotron %}
+<div class="jumbotron pyladiesJumbotron">
+    <h1 class="display-3">{{ page.title }}</h1>
+    <p>{{ page.content }}
+    </p>
+</div>
+{% endblock %}
 {% block content %}
-
-<h1>{{ page.title }}</h1>
-<hr />
-{{ page.content }}
 
 <h2 class="title">Próximos Eventos</h2>
 <hr />

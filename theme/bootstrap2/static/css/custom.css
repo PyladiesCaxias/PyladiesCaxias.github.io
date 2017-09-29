@@ -1,5 +1,5 @@
 body{
-    padding-top: 70px;
+    padding-top: 80px;
 }
 .row{
     margin-left: 0px !important;
@@ -73,10 +73,6 @@ h1{
     background-color: #f6f0f6;
 }
 
-.logo_pyladies{
-    height: 40px;
-}
-
 nav.navbar{
     box-shadow: 0px 5px 5px #ccc;
 }
@@ -84,4 +80,9 @@ nav.navbar{
 .py-events{
     border-bottom: 1px solid rgba(0,0,0,.125);
     margin-bottom: 20px;
+}
+
+.py-button{
+    background-color: #7e2c74;
+    border-color: #7e2c74;
 }
