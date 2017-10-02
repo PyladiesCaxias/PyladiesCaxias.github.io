@@ -6,7 +6,7 @@ Date: 2017-10-07 09:00
 summary: O Próximo encontro do Pyladies Caxias será dia 07 de outubro, na **Universidade de Caxias do Sul - Bloco 71 sala 202  - 9 horas às 12 horas.** Não perca!!
 
 
-## Encontro dia 07 de Outubro
+## Encontro de Outubro
 
 O Pyladies Caxias de outubro está marcado!
 
