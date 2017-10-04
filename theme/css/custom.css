@@ -25,6 +25,7 @@ body{
 }
 a, a:hover{
     color: #7e2c74;
+    white-space: normal;
 }
 
 a:hover{
@@ -85,4 +86,16 @@ nav.navbar{
 .py-button{
     background-color: #7e2c74;
     border-color: #7e2c74;
+}
+
+.icon_social{
+    text-align: center;
+}
+
+.icon_social a:link{
+    margin-right: 5px;
+}
+
+.list-group-item {
+    word-wrap: break-word;
 }
