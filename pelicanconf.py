@@ -69,6 +69,7 @@ MATERIAIS_LINKS = (('Django Project', 'https://docs.djangoproject.com/en/1.8/int
     ('Python 3 na web com Django', 'https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/', 'Python/Django'),
 )
 DEFAULT_PAGINATION = 10
+PDF_PROCESSOR = None
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
