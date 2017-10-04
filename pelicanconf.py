@@ -38,21 +38,36 @@ TWITTER_USERNAME = False
 
 MENUITEMS = (
     # ('Blog', '/archives.html'),
-    # ('Materiais', '/category/materiais.html'),
+    # ('Materiais', '/materiais.html'),
 )
 
 
-# Blogroll
 LINKS = (('Python.org', 'http://python.org/'),
-         ('Pyladies Brasil', 'http://brasil.pyladies.com/'),
          ('Python Brasil', 'http://python.org.br/'),
-         ('PyCaxias', 'http://pycaxias.org/'),)
+         ('Pyladies Brasil', 'http://brasil.pyladies.com/'),)
 
 # Blogroll
-SOCIAL = (('facebook', 'https://www.facebook.com/Pyladies-Caxias-1858294514418047/'),
-         ('github', 'https://github.com/PyladiesCaxias'),('pyladiescaxias@gmail.com', 'pyladiescaxias@gmail.com'),)
+SOCIAL = (('facebook-square', 'Facebook','https://www.facebook.com/Pyladies-Caxias-1858294514418047/'),
+         ('github-square', 'GitHub','https://github.com/PyladiesCaxias'),
+         ('whatsapp','Whatsapp', 'https://chat.whatsapp.com/6zWbhXYgPWsEa8G03QJo0b'),
+         ('slack', 'Slack PyladiesRS', 'https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY'),)
 
+EMAIL = ('envelope','pyladiescaxias@gmail.com', 'mailto:pyladiescaxias@gmail.com')
 
+EVENTOS = (('Python Brasil[13] - 2017', 'http://2017.pythonbrasil.org.br/'),
+    ('Python Brasil[14] - 2018', 'http://2018.pythonbrasil.org.br/'),
+    ('PyCaxias', 'http://pycaxias.org/'),
+    ('Python Sul', 'http://pythonsul.org/'),)
+
+MATERIAIS_LINKS = (('Django Project', 'https://docs.djangoproject.com/en/1.8/intro/tutorial01/', 'Python/Django'),
+    ('Code Academy Python course', 'https://www.codecademy.com/en/tracks/python', 'Python'),
+    ('Code Academy HTML & CSS course', 'https://www.codecademy.com/tracks/web', 'Web'),
+    ('Django Carrots tutorial', 'https://github.com/ggcarrots/django-carrots/', 'Python/Django'),
+    ('Getting Started With Django video lessons', 'http://www.gettingstartedwithdjango.com/', 'Python/Django'),
+    ('Python para Zumbis', 'https://www.pycursos.com/python-para-zumbis/', 'Python'),
+    ('Pycursos', 'https://www.pycursos.com/', 'Python'),
+    ('Python 3 na web com Django', 'https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/', 'Python/Django'),
+)
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing

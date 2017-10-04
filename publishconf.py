@@ -13,7 +13,7 @@ from pelicanconf import *
 SITEURL = 'https://pyladiescaxias.github.io/site/'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True

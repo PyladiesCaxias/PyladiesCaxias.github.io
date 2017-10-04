@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block jumbotron %}
+<div class="jumbotron pyladiesJumbotron">
+    <h1 class="display-3">{{ page.title }}</h1>
+    <p>{{ page.content }}
+    </p>
+</div>
+{% endblock %}
+{% block content %}
+
+{% if MATERIAIS_LINKS %}
+<h2 class="title">Cursos e Tutoriais</h2>
+<hr />
+<div class="row">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Categoria</th>
+        </tr>
+      </thead>
+      <tbody>
+          {% for name, link, cat in MATERIAIS_LINKS %}
+            <tr>
+              <td><a href="{{ link }}">{{ name }}</a></td>
+              <td>{{ cat }}</td>
+            </tr>
+          {% endfor %}
+      </tbody>
+    </table>
+</div>
+{% endif%}
+{% endblock %}
