@@ -34,7 +34,8 @@ Confiram a palestra no link: [Palestra PDF]({filename}/pdfs/PyLadies.pdf)
 
 No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do Pyladies Caxias. Veja as fotos do sprint:
 
-![Sprint Python Sul]({filename}/images/pythonsul/sprint.jpg)
+![Sprint Python Sul]({filename}/images/pythonsul/2017-09-10_Sprint_pyladies_final.JPG){: width=500px; }
+
 ![Sprint Python Sul 2]({filename}/images/pythonsul/sprint2.jpg)
 
 Você pode ver os videos das palestras no canal do Youtube do Rede Neural: [Rede Neural](https://www.youtube.com/channel/UCjqV6ib-IdDCICWKlnNiwhg)
@@ -48,3 +49,4 @@ Confira algumas fotos do evento:
 ![Organizacao]({filename}/images/pythonsul/FB_IMG_1505329694796.jpg){: width=500px; }
 
 ![Pyladies]({filename}/images/pythonsul/FB_IMG_1505340925683.jpg){: width=500px; }
+![Pyladies]({filename}/images/pythonsul/2017-09-09_Pythonsul_todos.jpg){: width=500px; }

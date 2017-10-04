@@ -11,7 +11,7 @@
 <h2 class="title">Próximos Eventos</h2>
 <hr />
 <div class="row">
-{% for article in dates %}
+{% for article in dates|sort(attribute='date') %}
 	<div class="col-md-5">
 	{% if article.category.name  == 'Proximos Eventos' %}
 		<div class="card">
@@ -25,6 +25,7 @@
 		</div>
 	{% endif %}
 	</div>
+    <br />
 {% endfor %}
 </div>
 <br />
