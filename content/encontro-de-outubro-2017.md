@@ -5,7 +5,7 @@ Category: Eventos
 Tags: eventos, pyladies
 :image: images/2encontro.jpg
 
-![Foto Encontro]({filename}/images/DG/2encontro.jpg){: width=500px; }
+![Foto Encontro]({filename}/images/2encontro.jpg){: width=500px; }
 
 No dia 07 de outubro de 2017 o Pyladies Caxias realizou seu encontro mensal. Não pode participar do nosso encontro, mas ficou curiosa para saber o que rolou? Não tem problema, nós contamos tudo para você!
 
