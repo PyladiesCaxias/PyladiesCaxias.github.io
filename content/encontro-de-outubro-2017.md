@@ -3,7 +3,6 @@ Description: Encontro mensal Pyladies Caxias
 Date: 2017-10-07 21:45:28
 Category: Eventos
 Tags: eventos, pyladies
-:image: images/2encontro.jpg
 
 ![Foto Encontro]({filename}/images/2encontro.jpg) : width=500px;
 
