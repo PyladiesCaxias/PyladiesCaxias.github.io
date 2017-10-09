@@ -1,6 +1,7 @@
 1. Criando e Adicionando
   * [Criar um novo post](#criar-um-novo-post)
   * [Atualizando o site](#atualizando-o-site)
+  * [Adicionar materiais](#materiais)
 
 
 Criar um novo Post
@@ -13,13 +14,17 @@ Para criar um novo post, noticias, artigos, eventos, rode o comando:
 Ele irá criar um novo arquivo `nome-do-seu-post.md` na pasta `content` e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você
 só precisará adicionar o restante do conteúdo.
 
-*Obs: Deve adicionar a categoria do post.*
+
+* Obs: Deve adicionar a categoria do post.*
 Exemplos:
 
 **category: Eventos**
 
 **category: Proximos Eventos**
 
+* Para ter uma descrição mais curta na página inicial ou página de eventos adicione a tag ***sumary***, com um resumo do post
+* Pode se adicionar tag para os posts, adicionando ***tags***:
+	ex: tags: eventos, django_girls, python 
 
 Após terminar o post, renderize-o com o comando:
 
@@ -50,6 +55,50 @@ Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`. A pá
 * Quando o post estiver pronto pode adicioná-lo ao github:
 	
 	git commit -am "Adicionado post NOME DE SEU POST"
+	git push origin nome_branch
+
+
+Para adicionar links na página Materiais
+---------------------
+
+No arquivo: pelicanconf.py
+
+* adicionar uma tupla no MATERIAIS_LINKS:
+	ex: ('Nome do curso', link, tema),
+
+Rode o comando:
+
+	pelican content
+
+* Quando estiver pronto pode adicioná-lo ao github:
+	
+	git commit -am "Adicionado post NOME DA Alteração"
+	git push origin nome_branch
+
+Para adicionar links da barra social:
+---------------------
+
+No arquivo: pelicanconf.py
+
+* Para adicionar um link para um site:
+	* adicionar uma tupla no LINKS:
+		ex: ('Nome site', link),
+
+* Para adicionar links para redes social do Pyladies Caxias:
+	* adicionar uma tupla no SOCIAL:
+			ex: ('nome_do_icone', 'Titulo', 'link'),
+
+* Para adicionar links para site de eventos Python:
+	* adicionar uma tupla no EVENTOS:
+			ex: ('Titulo do link', 'link'),
+
+Rode o comando:
+
+	pelican content
+
+* Quando estiver pronto pode adicioná-lo ao github:
+	
+	git commit -am "Adicionado post NOME DA Alteração"
 	git push origin nome_branch
 
 
