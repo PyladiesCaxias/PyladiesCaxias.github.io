@@ -83,6 +83,18 @@ nav.navbar{
     margin-bottom: 20px;
 }
 
+.py-events img{
+    max-width: 100%;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card img{
+    max-width: 100%;
+}
+
 .py-button{
     background-color: #7e2c74;
     border-color: #7e2c74;
