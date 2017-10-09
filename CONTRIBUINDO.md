@@ -2,6 +2,7 @@
   * [Criar um novo post](#criar-um-novo-post)
   * [Atualizando o site](#atualizando-o-site)
   * [Adicionar materiais](#materiais)
+  * [Adicionar links na barra social](#barra-social)
 
 
 Criar um novo Post
@@ -58,8 +59,10 @@ Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`. A pá
 	git push origin nome_branch
 
 
-Para adicionar links na página Materiais
+Materiais
 ---------------------
+
+Para adicionar links na página Materiais:
 
 No arquivo: pelicanconf.py
 
@@ -75,8 +78,11 @@ Rode o comando:
 	git commit -am "Adicionado post NOME DA Alteração"
 	git push origin nome_branch
 
-Para adicionar links da barra social:
+
+Barra Social
 ---------------------
+
+Para adicionar links da barra social:
 
 No arquivo: pelicanconf.py
 
