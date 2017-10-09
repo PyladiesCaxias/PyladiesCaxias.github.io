@@ -10,6 +10,11 @@ summary: Tchelinux é um grupo de usuários de Software Livre Tchelinux, tem o p
 O grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no ***dia 21 de
 outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias***.
 
+Nesse evento estaremos divulgando o Pyladies Caxias, distribuindo adesivos e tirando dúvidas, então fique a vontade para vir falar conosco.
+
+![Logo Tchelinux]({filename}/images/tchelinux.png){: height=500px; }
+
+
 ## Inscrições
 
 O evento tem entrada franca, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que serão doados

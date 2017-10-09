@@ -27,6 +27,10 @@ Após terminar o post, renderize-o com o comando:
 
 Se tudo deu certo, seu novo post já estará disponível na página.
 
+* Quando o post estiver pronto pode adicioná-lo ao github:
+	
+	git commit -am "Adicionado post NOME DE SEU POST"
+	git push origin nome_branch
 
 Criar uma nova Página
 ---------------------
@@ -43,6 +47,11 @@ Após terminar de editar a página, renderize-a com o comando:
 
 Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`. A página aparecerá no menu automaticamente.
 
+* Quando o post estiver pronto pode adicioná-lo ao github:
+	
+	git commit -am "Adicionado post NOME DE SEU POST"
+	git push origin nome_branch
+
 
 Atualizando o site
 ------------------
@@ -51,4 +60,6 @@ Para atualizar o site rode o comando abaixo.
 
     make github
 
-Ele vai compilar os html, e dar o push na brach do github.
+Ele vai compilar os html, e dar o push na brach gh-pages do github.
+
+* Obs: Ainda é necessário dar o commit das atualizações na sua branch

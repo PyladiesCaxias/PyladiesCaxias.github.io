@@ -12,8 +12,8 @@
 <hr />
 <div class="row">
 {% for article in dates|sort(attribute='date') %}
-	<div class="col-md-5">
 	{% if article.category.name  == 'Proximos Eventos' %}
+	<div class="col-md-5">
 		<div class="card">
 		  <div class="card-header">
 			  <b><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.date.day }}/{{ article.date.month }}/{{ article.date.year }} - {{ article.title }}</a></b>
@@ -23,8 +23,9 @@
 			<a href="#" class="btn btn-secondary btn-sm btn-pydefault">Ver mais >></a>
 		  </div>
 		</div>
-	{% endif %}
 	</div>
+	{% endif %}
+	
     <br />
 {% endfor %}
 </div>
@@ -33,8 +34,9 @@
 <hr />
 <div class="row">
 {% for article in dates %}
-	<div class="col-md-5 ">
+	
 	{% if article.category.name  == 'Eventos' %}
+	<div class="col-md-5 ">
 		<div class="card">
 		  <div class="card-header">
 			  <b><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.date.day }}/{{ article.date.month }}/{{ article.date.year }} - {{ article.title }}</a></b>
@@ -44,8 +46,9 @@
 			<a href="#" class="btn btn-secondary btn-sm btn-pydefault">Ver mais >></a>
 		  </div>
 		</div>
-	{% endif %}
 	</div>
+	{% endif %}
+	
 {% endfor %}
 </div>
 {% endblock %}
