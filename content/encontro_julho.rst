@@ -3,8 +3,14 @@
 :modified: 2017-07-16 9:10
 :tags: eventos, encontros, pyladies, pyladies poa
 :category: Eventos
+
+:slug: 1deg-encontro-pyladies
+:event-start: 2017-07-15 9:00
+:event-duration: 3h
+:event-end:  2017-07-15 12:00
+:location: UCS - Universidade de Caxias do Sul
+
 :summary: O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul.
-:image: images/1encontro.jpg
 
 O PyLadies Caxias do Sul teve seu primeiro encontro no dia 15 de Julho de 2017, na Universidade de Caxias do Sul. O evento contou com a presença
 das Pyladies POA e alunas da Universidade.

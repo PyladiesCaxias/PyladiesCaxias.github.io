@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
 
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Caxias'
@@ -10,7 +11,8 @@ TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
            'sem o seu consentimento (Eleanor Roosevelt)')
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
 DEFAULT_BG = 'images/logo.jpg'
-
+DATE_TODAY = datetime.now().date()
+SUMMARY_MAX_LENGTH = 50
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -54,8 +56,7 @@ SOCIAL = (('facebook-square', 'Facebook','https://www.facebook.com/Pyladies-Caxi
 
 EMAIL = ('envelope','pyladiescaxias@gmail.com', 'mailto:pyladiescaxias@gmail.com')
 
-EVENTOS = (('Python Brasil[13] - 2017', 'http://2017.pythonbrasil.org.br/'),
-    ('Python Brasil[14] - 2018', 'http://2018.pythonbrasil.org.br/'),
+EVENTOS = (('Python Brasil[14] - 2018', 'http://2018.pythonbrasil.org.br/'),
     ('PyCaxias', 'http://pycaxias.org/'),
     ('Python Sul', 'http://pythonsul.org/'),)
 
@@ -73,6 +74,16 @@ PDF_PROCESSOR = None
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-PLUGINS = [
-    'pelican_youtube'
-]
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['events', 'pelican_youtube', 'tag_cloud']
+
+TAG_CLOUD_STEPS = 4
+TAG_CLOUD_MAX_ITEMS = 100
+TAG_CLOUD_SORTING = 'random'
+TAG_CLOUD_BADGE = True
+
+PLUGIN_EVENTS = {
+    'ics_fname': 'calendar.ics',
+
+}
+

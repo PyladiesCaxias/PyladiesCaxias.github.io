@@ -31,6 +31,7 @@ PAGESDIR=$(INPUTDIR)/pages
 DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= md
+EXT2 ?= rst
 EDITOR ?= vim
 
 DEBUG ?= 0
@@ -50,8 +51,9 @@ help:
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
-	@echo '   make post NAME="POST NAME"       create new post with input name    '
-	@echo '   make page NAME="PAGE NAME"       create new ppage with input name   '
+	@echo '   make post NAME="POST NAME"          create new post with input name    '
+	@echo '   make page NAME="PAGE NAME"          create new ppage with input name   '
+	@echo '   make event NAME="NAME EVENTO"       create new ppage with input name   '
 	@echo '   make publish                        generate using production settings '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
@@ -144,6 +146,26 @@ else
 	@echo 'Variable NAME is not defined.'
 	@echo 'Do make newpost NAME='"'"'Post Name'"'"
 endif
+
+event:
+ifdef NAME
+	echo ":title: $(NAME)" >  $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":date: $(DATE)" >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":category: Eventos" >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":slug: $(SLUG)" >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":event-start: " >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":event-duration: " >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":event-end: " >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":location: " >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ":summary: " >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT2)
+	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT2}
+else
+	@echo 'Variable NAME is not defined.'
+	@echo 'Do make event NAME='"'"'Event Name'"'"
+endif
+
 
 page:
 ifdef NAME

@@ -1,9 +1,16 @@
 {% extends "base.html" %}
 {% block jumbotron %}
-<div class="jumbotron pyladiesJumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-    <p>{{ page.content }}
-    </p>
+<div class="jumbotron pyladiesJumbotron hidden-xs">
+	<div class="row">
+		<div class="col">
+		    <h1 class="display-3">{{ page.title }}</h1>
+		    <p>{{ page.content }}
+		    </p>
+		</div>
+		<div class="col">
+			{% include "calendario.html" %}
+		</div>
+	</div>
 </div>
 {% endblock %}
 {% block content %}
@@ -13,14 +20,14 @@
 <div class="row">
 {% for article in dates|sort(attribute='date') %}
 	{% if article.category.name  == 'Proximos Eventos' %}
-	<div class="col-md-5">
+	<div class="col-md-6 col-sm-12 col-xs-12">
 		<div class="card">
 		  <div class="card-header">
-			  <b><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.date.day }}/{{ article.date.month }}/{{ article.date.year }} - {{ article.title }}</a></b>
+			  <h5><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.date.day }}/{{ article.date.month }}/{{ article.date.year }} - {{ article.title }}</a></h5>
 		  </div>
 		  <div class="card-body">
 		    {{ article.summary }}
-			<a href="#" class="btn btn-secondary btn-sm btn-pydefault">Ver mais >></a>
+			<a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-secondary btn-sm btn-pydefault">Ver mais >></a>
 		  </div>
 		</div>
 	</div>
@@ -36,14 +43,14 @@
 {% for article in dates %}
 	
 	{% if article.category.name  == 'Eventos' %}
-	<div class="col-md-5 ">
+	<div class="col-md-6 col-sm-12 col-xs-12">
 		<div class="card">
 		  <div class="card-header">
 			  <b><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.date.day }}/{{ article.date.month }}/{{ article.date.year }} - {{ article.title }}</a></b>
 		  </div>
 		  <div class="card-body">
 		    {{ article.summary }}
-			<a href="#" class="btn btn-secondary btn-sm btn-pydefault">Ver mais >></a>
+			<a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-secondary btn-sm btn-pydefault">Ver mais >></a>
 		  </div>
 		</div>
 	</div>

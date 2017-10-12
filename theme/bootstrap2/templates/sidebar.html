@@ -36,6 +36,15 @@
 {% include 'twitter_profile.html' %}
 {% include 'search_sidebar.html' %}
 
+<li class="list-group-item disabled"><i class="fa fa-tags fa-fw"></i>Tags</li>
+<li class="list-group-item ">
+{% for tag in tag_cloud %}
+    <a class="tag-{{ tag.1 }}" href="{{ SITEURL }}/{{ tag.0.url }}">
+       <i class="fa fa-tags fa-fw"></i>{{ tag.0 }}
+    </a>
+{% endfor %}
+</li>
+
 {% if SIDEBAR_CUSTOM %}
     {{ SIDEBAR_CUSTOM }}
 {% endif %}
