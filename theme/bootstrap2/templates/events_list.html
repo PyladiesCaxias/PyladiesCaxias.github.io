@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block jumbotron %}
+<div class="jumbotron pyladiesJumbotron hidden-xs">
+    <h1 class="display-3">{{ page.title }}</h1>
+    <p>{{ page.description }}
+    </p>
+</div>
+{% endblock %}
+
+{% block content %}
+{% if events_list %}
+
+<h2 class="title">Próximos Eventos</h2>
+<hr />
+<div class="row">
+    {% for evstart, evend, event in events_list %}
+        {% if evend.date() >= DATE_TODAY %}
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="card-header">
+            <h5><a href='{{ SITEURL }}/{{event.slug}}.html'>
+                {{evstart.date().day }}/{{evstart.date().month }} -
+                {{event['title']}}
+            </a>
+        
+            </h5>
+           </div>
+           <div class="card-body">
+            {% if evstart.date() == evend.date() %}
+                <p>
+                    <b>Data:</b> {{evstart.date().day }}/{{evstart.date().month }}/{{evstart.date().year }}
+                </p>
+                <p>
+                    <b>Hora:</b> {{evstart.time()}} <b>às</b> {{evend.time()}}
+                </p>
+            {% else %}
+                <p>
+                    <b>De:</b> {{evstart.date().day }}/{{evstart.date().month }}/{{evstart.date().year }} às {{evstart.time()}}
+                    <b>Até:</b> {{evend.date().day }}/{{evend.date().month }}/{{evend.date().year }} às {{evend.time()}}
+                </p>
+            {% endif %}
+            
+            {% if event.location %}
+            <p><b>Local:</b> {{event.location}}</p>
+            {% endif %}
+
+            <p>{{event['summary']}}</p>
+            <p><a class="btn btn-secondary btn-sm btn-pydefault" href='{{ SITEURL }}/{{event.slug}}.html' role="button">Ver mais »</a></p>
+           </div>
+       </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+   
+<br />
+<h2 class="title">Eventos Anteriores</h2>
+<hr />
+<div class="row">
+   {% for evstart, evend, event in events_list %}
+        {% if evend.date() < DATE_TODAY %}
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="card-header">
+            <h5><a href='{{ SITEURL }}/{{event.slug}}.html'>
+                {{evstart.date().day }}/{{evstart.date().month }} - 
+                {{event['title']}}
+            </a>
+        
+            </h5>
+        </div>
+        <div class="card-body">
+            {% if evstart.date() == evend.date() %}
+                <p>
+                    <b>Data:</b> {{evstart.date().day }}/{{evstart.date().month }}/{{evstart.date().year }}
+                </p>
+                <p>
+                    <b>Hora:</b> {{evstart.time()}} <b>às</b> {{evend.time()}}
+                </p>
+            {% else %}
+                <p>
+                    <b>De:</b> {{evstart.date().day }}/{{evstart.date().month }}/{{evstart.date().year }} às {{evstart.time()}}
+                    <b>Até:</b> {{evend.date().day }}/{{evend.date().month }}/{{evend.date().year }} às {{evend.time()}}
+                </p>
+            {% endif %}
+            
+            {% if event.location %}
+            <p><b>Local:</b> {{event.location}}</p>
+            {% endif %}
+
+            <p>{{event['summary']}}</p>
+            <p><a class="btn btn-secondary btn-sm btn-pydefault" href='{{ SITEURL }}/{{event.slug}}.html' role="button">Ver mais »</a></p>
+        </div>
+    </div>
+    </div>
+    {% endif %}
+    {% endfor %} 
+</div>
+{% endif %}
+
+{% endblock %}

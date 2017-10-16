@@ -12,7 +12,7 @@ TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
 DEFAULT_BG = 'images/logo.jpg'
 DATE_TODAY = datetime.now().date()
-SUMMARY_MAX_LENGTH = 50
+SUMMARY_MAX_LENGTH = 60
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'

@@ -3,6 +3,3 @@ markdown
 pelican-youtube
 ghp-import
 icalendar
-
-pelican-events
-tag_cloud

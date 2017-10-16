@@ -16,32 +16,11 @@
     {% if articles %}
     <div class="row">
         {% for article in (articles_page.object_list if articles_page else articles) %}
-        <div class="col-md-5 py-events">
+        <div class="col-md-6 py-events">
             <h4><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date.day }}/{{ article.date.month }} - {{ article.title }}</a></h2>
 
             <small>{% include "article_infos.html" %}</small>
             <br />
-            {% if article.event_start %}
-            kk
-                {% if article.event_start.date() == article.event_end.date() %}
-                    <p>
-                        <b>Data:</b> {{article.event_start.date().day }}/{{article.event_start.date().month }}/{{article.event_start.date().year }}
-                    </p>
-                    <p>
-                        <b>Hora:</b> {{article.event_start.time()}} <b>às</b> {{article.event_end.time()}}
-                    </p>
-                {% else %}
-                    <p>
-                        <b>De:</b> {{article.event_start.date().day }}/{{article.event_start.date().month }}/{{article.event_start.date().year }} às {{article.event_start.time()}}
-                        <b>Até:</b> {{article.event_end.date().day }}/{{article.event_end.date().month }}/{{article.event_end.date().year }} às {{article.event_end.time()}}
-                    </p>
-                {% endif %}
-                
-                {% if article.location %}
-                <p><b>Local:</b> {{article.location}}</p>
-                {% endif %}
-            {% endif %}
-
             <p>{{ article.summary }}</p>
             <p><a class="btn btn-secondary btn-sm btn-pydefault" href="{{ SITEURL }}/{{ article.url }}" role="button">Ver mais »</a></p>
 
