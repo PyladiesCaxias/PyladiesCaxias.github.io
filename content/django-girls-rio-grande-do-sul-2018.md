@@ -7,7 +7,10 @@ Tags: django, django girls
 
 
 A Python Sul movimentou mesmo a região! Nos perguntamos, E agora? O que vem depois? Qual a próxima cidade?
-E logo as ideias surgiram, então teremos 5 ofinas do Django Girls no Rio Grande do Sul, as cidades são : Porto Alegre, Santa Maria, Canoas, Bento Gonçalves e Caxias do Sul.
+
+E logo as ideias surgiram, então teremos 5 oficinas do Django Girls no Rio Grande do Sul em 2018!!
+
+Confira quais são as cidades: Porto Alegre, Santa Maria, Canoas, Bento Gonçalves e Caxias do Sul.
 
 ![Foto Treinadores]({filename}/images/DG/36982957166_e3ff38ffbf_z.jpg)
 

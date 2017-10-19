@@ -5,4 +5,4 @@ Events list
 :summary:
 :template: events_list
 :title: Eventos
-:description: Os evento
+:description: Os nossos eventos são abertos ao público. Não exigimos nenhum conhecimento técnico, qualquer pessoa com algum interesse em Python é encorajada a participar.
