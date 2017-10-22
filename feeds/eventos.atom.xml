@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias - Eventos</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/eventos.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-10-21T08:30:00-02:00</updated><entry><title>Tchelinux Caxias</title><link href="https://pyladiescaxias.github.io/site/tchelinux-caxias.html" rel="alternate"></link><published>2017-10-21T08:30:00-02:00</published><updated>2017-10-21T08:30:00-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-21:/site/tchelinux-caxias.html</id><summary type="html">&lt;p class="first last"&gt;Tchelinux é um grupo de usuários de Software Livre, tem o prazer de convidar a comunidade para participar. Nesse evento estaremos divulgando o Pyladies Caxias, distribuindo adesivos.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias - Eventos</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/eventos.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-10-22T13:10:01-02:00</updated><entry><title>Tchelinux Caxias 2017</title><link href="https://pyladiescaxias.github.io/site/tchelinux-caxias-2017.html" rel="alternate"></link><published>2017-10-22T13:10:01-02:00</published><updated>2017-10-22T13:10:01-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-22:/site/tchelinux-caxias-2017.html</id><summary type="html">&lt;p&gt;No sábado dia 21 de outubro aconteceu o evento Tchelinux em Caxias do Sul. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto5.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;O Tchelinux é um grupo de usuários que organiza eventos sem fins lucrativos, mantém um site com
+informações sobre o grupo, um canal de discussão e uma grupo de discussão por emails que tem como 
+principal objetivo promover a divulgação, o debate e a troca de …&lt;/p&gt;</summary><content type="html">&lt;p&gt;No sábado dia 21 de outubro aconteceu o evento Tchelinux em Caxias do Sul. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto5.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;O Tchelinux é um grupo de usuários que organiza eventos sem fins lucrativos, mantém um site com
+informações sobre o grupo, um canal de discussão e uma grupo de discussão por emails que tem como 
+principal objetivo promover a divulgação, o debate e a troca de experiências entre usuários e 
+desenvolvedores de software open source com profissionais e estudantes de tecnologia de informação, e
+usuários de software em geral.&lt;/p&gt;
+&lt;p&gt;O evento reuniu 120 pessoas, teve 16 palestras com temas diversificados de níveis principiante até avançado.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto1.jpg" width="500px;"&gt;
+&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto2.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 3" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto3.jpg" width="500px;"&gt;
+&lt;img alt="Foto 4" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto4.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto5.jpg" width="500px;"&gt;
+&lt;img alt="Foto 6" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto6.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 7" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto7.jpg" width="500px;"&gt;
+&lt;img alt="Foto 8" src="https://pyladiescaxias.github.io/site/images/tchelinux/foto8.jpeg" width="500px;"&gt;&lt;/p&gt;</content><category term="linux"></category><category term="python"></category></entry><entry><title>Tchelinux Caxias</title><link href="https://pyladiescaxias.github.io/site/tchelinux-caxias.html" rel="alternate"></link><published>2017-10-21T08:30:00-02:00</published><updated>2017-10-21T08:30:00-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-21:/site/tchelinux-caxias.html</id><summary type="html">&lt;p class="first last"&gt;Tchelinux é um grupo de usuários de Software Livre, tem o prazer de convidar a comunidade para participar. Nesse evento estaremos divulgando o Pyladies Caxias, distribuindo adesivos.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;strong&gt;Sobre o Evento&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;O grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no &lt;strong&gt;dia 21 de
 outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias&lt;/strong&gt;.&lt;/p&gt;
