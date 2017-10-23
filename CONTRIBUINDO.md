@@ -1,7 +1,7 @@
 1. Criando e Adicionando
   * [Criar um novo evento](#criar-um-novo-evento)
   * [Criar um novo post](#criar-um-novo-post)
-  * [Criar uma nova pagina](#criar-uma-nova-pagina)
+  * [Criar uma nova página](#criar-uma-nova-página)
   * [Adicionar materiais](#materiais)
   * [Adicionar links na barra social](#barra-social)
   * [Atualizando o site](#atualizando-o-site)
@@ -35,34 +35,34 @@ Se tudo deu certo, seu novo post já estará disponível na página.
 Criar um novo Evento
 ------------------
 
-    Para criar um novo evento (encontros, congressos, seminários):
+Para criar um novo evento (encontros, congressos, seminários):
 
-    	make event NAME="NAME EVENTO"
+	make event NAME="NAME EVENTO"
 
-    Ele irá criar um novo arquivo `nome-do-seu-evento.rst` na pasta `content` e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você
-    só precisará adicionar o restante do conteúdo.
+Ele irá criar um novo arquivo `nome-do-seu-evento.rst` na pasta `content` e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você
+só precisará adicionar o restante do conteúdo.
 
-    * Ex:
-        ```
-        :slug: novo-evento
+* Ex:
+    ```
+    :slug: novo-evento
 
-        :event-start: 2017-09-8 9:00
-        :event-duration: 3h
-        :event-end:  2017-09-10 12:00
-        :location: Local do Evento
-        :summary: Descrição do Evento
-        ```
+    :event-start: 2017-09-8 9:00
+    :event-duration: 3h
+    :event-end:  2017-09-10 12:00
+    :location: Local do Evento
+    :summary: Descrição do Evento
+    ```
 
-    Após terminar o post, renderize-o com o comando:
+Após terminar o post, renderize-o com o comando:
 
-    	pelican content
+	pelican content
 
-    Se tudo deu certo, seu novo post já estará disponível na página. O evento aparecerá na página de Eventos e na home.
+Se tudo deu certo, seu novo post já estará disponível na página. O evento aparecerá na página de Eventos e na home.
 
-    * Quando o post estiver pronto pode adicioná-lo ao github:
+* Quando o post estiver pronto pode adicioná-lo ao github:
 
-    	git commit -am "Adicionado post NOME DE SEU POST"
-    	git push origin nome_branch
+	git commit -am "Adicionado post NOME DE SEU POST"
+	git push origin nome_branch
 
 Criar uma nova Página
 ---------------------
