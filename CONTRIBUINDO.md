@@ -1,8 +1,10 @@
 1. Criando e Adicionando
+  * [Criar um novo evento](#criar-um-novo-evento)
   * [Criar um novo post](#criar-um-novo-post)
-  * [Atualizando o site](#atualizando-o-site)
+  * [Criar uma nova pagina](#criar-uma-nova-pagina)
   * [Adicionar materiais](#materiais)
   * [Adicionar links na barra social](#barra-social)
+  * [Atualizando o site](#atualizando-o-site)
 
 
 Criar um novo Post
@@ -15,17 +17,9 @@ Para criar um novo post, noticias, artigos, eventos, rode o comando:
 Ele irá criar um novo arquivo `nome-do-seu-post.md` na pasta `content` e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você
 só precisará adicionar o restante do conteúdo.
 
-
-* Obs: Deve adicionar a categoria do post.*
-Exemplos:
-
-**category: Eventos**
-
-**category: Proximos Eventos**
-
 * Para ter uma descrição mais curta na página inicial ou página de eventos adicione a tag ***sumary***, com um resumo do post
 * Pode se adicionar tag para os posts, adicionando ***tags***:
-	ex: tags: eventos, django_girls, python 
+	ex: tags: eventos, django_girls, python
 
 Após terminar o post, renderize-o com o comando:
 
@@ -34,9 +28,41 @@ Após terminar o post, renderize-o com o comando:
 Se tudo deu certo, seu novo post já estará disponível na página.
 
 * Quando o post estiver pronto pode adicioná-lo ao github:
-	
+
 	git commit -am "Adicionado post NOME DE SEU POST"
 	git push origin nome_branch
+
+Criar um novo Evento
+------------------
+
+    Para criar um novo evento (encontros, congressos, seminários):
+
+    	make event NAME="NAME EVENTO"
+
+    Ele irá criar um novo arquivo `nome-do-seu-evento.rst` na pasta `content` e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você
+    só precisará adicionar o restante do conteúdo.
+
+    * Ex:
+        ```
+        :slug: novo-evento
+
+        :event-start: 2017-09-8 9:00
+        :event-duration: 3h
+        :event-end:  2017-09-10 12:00
+        :location: Local do Evento
+        :summary: Descrição do Evento
+        ```
+
+    Após terminar o post, renderize-o com o comando:
+
+    	pelican content
+
+    Se tudo deu certo, seu novo post já estará disponível na página. O evento aparecerá na página de Eventos e na home.
+
+    * Quando o post estiver pronto pode adicioná-lo ao github:
+
+    	git commit -am "Adicionado post NOME DE SEU POST"
+    	git push origin nome_branch
 
 Criar uma nova Página
 ---------------------
@@ -54,7 +80,7 @@ Após terminar de editar a página, renderize-a com o comando:
 Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`. A página aparecerá no menu automaticamente.
 
 * Quando o post estiver pronto pode adicioná-lo ao github:
-	
+
 	git commit -am "Adicionado post NOME DE SEU POST"
 	git push origin nome_branch
 
@@ -74,7 +100,7 @@ Rode o comando:
 	pelican content
 
 * Quando estiver pronto pode adicioná-lo ao github:
-	
+
 	git commit -am "Adicionado post NOME DA Alteração"
 	git push origin nome_branch
 
@@ -103,7 +129,7 @@ Rode o comando:
 	pelican content
 
 * Quando estiver pronto pode adicioná-lo ao github:
-	
+
 	git commit -am "Adicionado post NOME DA Alteração"
 	git push origin nome_branch
 
