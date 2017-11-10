@@ -16,19 +16,6 @@ UID:Python Sul 2017<p class="first last">A <a class="reference external" h
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p class="first last">Tchelinux é um grupo de usuários de Softwa
- re Livre\, tem o prazer de convidar a comunidade para participar. Nesse ev
- ento estaremos divulgando o Pyladies Caxias\, distribuindo adesivos.</p>\n
-DTSTART:2017-10-21 08:30:00
-DTEND:2017-10-21 14:00:00
-DTSTAMP:2017-10-21 08:30:00
-UID:Tchelinux Caxias<p class="first last">Tchelinux é um grupo de usuári
- os de Software Livre\, tem o prazer de convidar a comunidade para particip
- ar. Nesse evento estaremos divulgando o Pyladies Caxias\, distribuindo ade
- sivos.</p>\n
-PRIORITY:5
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:<p class="first last">Este será o 1° dos encontros de Python da 
  região\, o encontro é gratuito e aberto a todos que queiram participar\,
   não precisa conhecer Python o evento terá um slot introdutório.</p>\n
@@ -39,6 +26,19 @@ UID:Encontro de Novembro<p class="first last">Este será o 1° dos encontr
  os de Python da região\, o encontro é gratuito e aberto a todos que quei
  ram participar\, não precisa conhecer Python o evento terá um slot intro
  dutório.</p>\n
+PRIORITY:5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:<p class="first last">Tchelinux é um grupo de usuários de Softwa
+ re Livre\, tem o prazer de convidar a comunidade para participar. Nesse ev
+ ento estaremos divulgando o Pyladies Caxias\, distribuindo adesivos.</p>\n
+DTSTART:2017-10-21 08:30:00
+DTEND:2017-10-21 14:00:00
+DTSTAMP:2017-10-21 08:30:00
+UID:Tchelinux Caxias<p class="first last">Tchelinux é um grupo de usuári
+ os de Software Livre\, tem o prazer de convidar a comunidade para particip
+ ar. Nesse evento estaremos divulgando o Pyladies Caxias\, distribuindo ade
+ sivos.</p>\n
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
