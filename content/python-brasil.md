@@ -13,11 +13,11 @@ Python Brasil).
 A décima terceira edição da Python Brasil foi realizada em Belo Horizonte (MG), nos dias **6 a 11 de outubro de 2017**, neste período terão
 palestras, tutoriais e sprints de programação.
 
-# Pyladies
+# PyLadies
 
-![Pyladies Brasil]({filename}/images/pythonbrasil/pyladiesbr13.jpg)
+![PyLadiesBrasil]({filename}/images/pythonbrasil/pyladiesbr13.jpg)
 
-[Pyladies](http://brazil.pyladies.com) de várias regiões do país na Conferência Python Brasil[13]. O trabalho da comunidade Python através das PyLadies tornaram a Python Brasil o evento técnico com maior representatividade feminina. Mulheres palestrantes: 2016 (42%) e 2017 (44%).
+[PyLadies](http://brazil.pyladies.com) de várias regiões do país na Conferência Python Brasil[13]. O trabalho da comunidade Python através das PyLadies tornaram a Python Brasil o evento técnico com maior representatividade feminina. Mulheres palestrantes: 2016 (42%) e 2017 (44%).
 
 Elas também organizaram a
 1° edição da oficina [Django Girls Belo Horizonte](http://djangogirls.org/belohorizonte).

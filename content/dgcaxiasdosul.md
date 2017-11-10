@@ -9,7 +9,7 @@ sumary: Django Girls é uma oficina de programação gratuita para mulheres. Cax
 Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017,
 antecedendo a [Python Sul 2017](http://pythonsul.org/).
 
-Contamos com o apoio das [Pyladies POA](https://pyladiespoa.pythonanywhere.com/), fizemos uma oficina Django Girls para introduzir meninas e mulheres à programação com Python. Ficamos muitíssimo felizes de termos participantes tanto da região de Caxias do Sul quanto de outras querendo aprender a programar e a fazer um site. Contamos com voluntárias e voluntários que vieram de Porto Alegre para Caxias do Sul para ajudar esse evento ser um sucesso. Quer conferir como foi? Dê uma olhada nas fotos do evento, [clicando aqui](https://www.flickr.com/photos/djangogirls/36775165820/in/album-72157688344750416/)
+Contamos com o apoio das [PyLadies POA](https://pyladiespoa.pythonanywhere.com/), fizemos uma oficina Django Girls para introduzir meninas e mulheres à programação com Python. Ficamos muitíssimo felizes de termos participantes tanto da região de Caxias do Sul quanto de outras querendo aprender a programar e a fazer um site. Contamos com voluntárias e voluntários que vieram de Porto Alegre para Caxias do Sul para ajudar esse evento ser um sucesso. Quer conferir como foi? Dê uma olhada nas fotos do evento, [clicando aqui](https://www.flickr.com/photos/djangogirls/36775165820/in/album-72157688344750416/)
 
 Confira algumas fotos da oficina:
 
