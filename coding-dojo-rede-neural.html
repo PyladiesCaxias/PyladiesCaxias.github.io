@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Dojo - Rede Neural</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Pyladies">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="https://pyladiescaxias.github.io/theme/css/bootstrap.min.css" type="text/css" />
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .tag-1 {
+        font-size: 13pt;
+      }
+      .tag-2 {
+        font-size: 10pt;
+      }
+      .tag-2 {
+        font-size: 8pt;
+      }
+      .tag-4 {
+        font-size: 6pt;
+     }
+    </style>
+    <link href="https://pyladiescaxias.github.io/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/theme/css/style.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/theme/css/font-awesome.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/theme/css/pygments.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/theme/css/custom.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="https://pyladiescaxias.github.io/images/icones/favicon.ico">
+    <link rel="apple-touch-icon" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon-114x114.png">
+
+    <link href="https://pyladiescaxias.github.io/" type="application/atom+xml" rel="alternate" title="Pyladies Caxias do Sul ATOM Feed" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+        FB.init({
+          appId            : 'Pyladies-Caxias-1858294514418047',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.10'
+        });
+        FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <nav class="navbar navbar-expand-md  fixed-top bg-white">
+        <a class="navbar-brand" href="https://pyladiescaxias.github.io/index.html"><img class="logo_pyladies" src="https://pyladiescaxias.github.io/images/icones/g4390.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-navicon fa-fw"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/sobre/">Sobre</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/events-list/">Eventos</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/duvidas/">Dúvidas?</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/materiais/">Materiais</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/">site</a>
+          </div>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type="text">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+        </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10" id="content">
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to Coding Dojo - Rede Neural">
+                                        Coding Dojo - Rede Neural
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+<div class="post-info article-info">
+    <span class="info-destaque">Data:</span>
+    <span>
+        15-10-2017
+    </span>
+    <span class="info-destaque">Categoria:</span>
+    <a href="https://pyladiescaxias.github.io/category/misc.html"><i class="fa fa-folder-open fa-fw"></i>misc</a>
+
+
+<span class="info-destaque"><i class="fa fa-tags fa-fw"></i>Tags:</span>
+	<a href="https://pyladiescaxias.github.io/tag/programacao.html"><i class="fa fa-tag fa-fw"></i>programação</a>
+	<a href="https://pyladiescaxias.github.io/tag/python.html"><i class="fa fa-tag fa-fw"></i>python</a>
+</div><!-- /.post-info -->                <p>No dia 14 de Outubro, participamos do Coding Dojo do <a href="https://www.meetup.com/pt-BR/Rede-Neural/">Rede Neural</a>.</p>
+<p>Coding Dojo tem como objetivo praticar, aprender e ensinar técnicas de programação, fizemos o exemplo 'fizzbuzz' usando a linguagen de programação python e a tecnica de TDD.</p>
+<p>O encontro ocorreu na OCA, ali também acontece o <a href="https://www.facebook.com/codeclubocacaxias/">Code club</a>, uma rede mundial de clubes de programação para crianças.</p>
+<p>No code club os voluntários ensinam crianças a programar criando jogos, animações e páginas de internet. Os voluntários atuam em escolas e/ou espaços públicos, em oficinas de uma hora de duração, uma vez por semana utilizando o material que disponibilizado.</p>
+<p><img alt="Foto 1" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204830.jpg" width="500px;"></p>
+<p><img alt="Foto 2" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204845.jpg" width="500px;">
+<img alt="Foto 3" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204851.jpg" width="500px;"></p>
+<p><img alt="Foto 4" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204859.jpg" width="500px;">
+<img alt="Foto 5" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204923.jpg" width="500px;"></p>
+<p><img alt="Foto 6" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204928.jpg" width="500px;">
+<img alt="Foto 7" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204932.jpg" width="500px;"></p>
+<p><img alt="Foto 8" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204939.jpg" width="500px;">
+<img alt="Foto 9" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204943.jpg" width="500px;"></p>
+<p><img alt="Foto 10" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204957.jpg" width="500px;">
+<img alt="Foto 11" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_205007.jpg" width="500px;"></p>
+<p><img alt="Foto 12" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_205015.jpg" width="500px;">
+<img alt="Foto 13" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_205020.jpg" width="500px;"></p>
+                </div><!-- /.entry-content -->
+        </article>
+</section>
+        </div><!--/span-->
+
+      <div class="col-md-2 sidebar-nav hidden-xs" id="sidebar">
+
+<ul class="list-group">
+
+<li class="list-group-item disabled"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;SOCIAL</li>
+<li class="list-group-item icon_social">
+    <a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/" title="Facebook"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>
+    <a href="https://github.com/PyladiesCaxias" title="GitHub"><i class="fa fa-github-square fa-2x fa-fw"></i></a>
+    <a href="https://chat.whatsapp.com/6zWbhXYgPWsEa8G03QJo0b" title="Whatsapp"><i class="fa fa-whatsapp fa-2x fa-fw"></i></a>
+    <a href="https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY" title="Slack PyladiesRS"><i class="fa fa-slack fa-2x fa-fw"></i></a>
+</li>
+
+<li class="list-group-item icon_email">
+    <a href="mailto:pyladiescaxias@gmail.com" ><i class="fa fa-envelope fa-fw"></i> pyladiescaxias@gmail.com</a>
+</li>
+
+    <li class="list-group-item disabled"><i class="fa fa-external-link fa-fw"></i> LINKS</li>
+        <li class="list-group-item "><a href="http://python.org/"><i class="fa fa-external-link fa-fw"></i> Python.org</a></li>
+        <li class="list-group-item "><a href="http://python.org.br/"><i class="fa fa-external-link fa-fw"></i> Python Brasil</a></li>
+        <li class="list-group-item "><a href="http://brasil.pyladies.com/"><i class="fa fa-external-link fa-fw"></i> Pyladies Brasil</a></li>
+    <li class="list-group-item disabled"><i class="fa fa-external-link fa-fw"></i> LINKS DE EVENTOS</li>
+        <li class="list-group-item "><a href="http://2018.pythonbrasil.org.br/"><i class="fa fa-external-link fa-fw"></i> Python Brasil[14] - 2018</a></li>
+        <li class="list-group-item "><a href="http://pycaxias.org/"><i class="fa fa-external-link fa-fw"></i> PyCaxias</a></li>
+        <li class="list-group-item "><a href="http://pythonsul.org/"><i class="fa fa-external-link fa-fw"></i> Python Sul</a></li>
+
+<li class="list-group-item disabled"><i class="fa fa-tags fa-fw"></i>Tags</li>
+<li class="list-group-item ">
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/mulheres.html">
+       <i class="fa fa-tags fa-fw"></i>mulheres
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django_girls.html">
+       <i class="fa fa-tags fa-fw"></i>django_girls
+    </a>
+    <a class="tag-0" href="https://pyladiescaxias.github.io/tag/python.html">
+       <i class="fa fa-tags fa-fw"></i>python
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies-poa.html">
+       <i class="fa fa-tags fa-fw"></i>pyladies poa
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies.html">
+       <i class="fa fa-tags fa-fw"></i>pyladies
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/linux.html">
+       <i class="fa fa-tags fa-fw"></i>linux
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django-girls.html">
+       <i class="fa fa-tags fa-fw"></i>django girls
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/programacao.html">
+       <i class="fa fa-tags fa-fw"></i>programação
+    </a>
+    <a class="tag-1" href="https://pyladiescaxias.github.io/tag/eventos.html">
+       <i class="fa fa-tags fa-fw"></i>eventos
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django.html">
+       <i class="fa fa-tags fa-fw"></i>django
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/encontros.html">
+       <i class="fa fa-tags fa-fw"></i>encontros
+    </a>
+</li>
+
+</ul>
+<br />
+<div class="card">
+    <div class="card-body">
+        <div class="fb-page" data-href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"
+            data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+            data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/Pyladies-Caxias-1858294514418047/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"><i class="fa fa-facebook-square fa-fw"></i> Pyladies Caxias</a>
+            </blockquote>
+        </div>
+    </div>
+</div>      </div>    <!--/.well -->
+
+        </div><!--/row-->
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <address id="about">
+                Site produzido em <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
+                com a tecnologia <a href="http://python.org">Python <i class="icon-external-link"></i></a>.
+            </address><!-- /#about -->
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://pyladiescaxias.github.io/theme/js/jquery-1.7.2.min.js"></script>
+    <script src="https://pyladiescaxias.github.io/theme/js/bootstrap.min.js"></script>
+  </body>
+</html>
