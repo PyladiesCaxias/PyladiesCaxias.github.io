@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from datetime import datetime
 
 AUTHOR = u'Pyladies'
-SITENAME = u'Pyladies Caxias'
+SITENAME = u'Pyladies Caxias do Sul'
 SITELOGO = 'images/icones/desenho3.png'
 SITEURL = 'http://localhost:8000'
 TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
