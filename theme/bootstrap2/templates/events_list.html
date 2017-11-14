@@ -1,13 +1,25 @@
 {% extends "base.html" %}
+
 {% block jumbotron %}
 <div class="jumbotron pyladiesJumbotron hidden-xs">
     <h1 class="display-3">{{ page.title }}</h1>
     <p>{{ page.description }}
     </p>
 </div>
+
 {% endblock %}
 
 {% block content %}
+<script type="text/javascript">
+    $(document).ready(function() {
+        console.log("aquiii");
+        var meetupId = "{{ID_MEETUP}}";
+
+        PyladiesMeetupWidget.addUpcomingMeetups(meetupId);
+        console.log("passou por aqui");
+    });
+</script>
+<div id="upcomingMeetupsList"></div>
 {% if events_list %}
 
 <h2 class="title">Próximos Eventos</h2>
@@ -22,7 +34,7 @@
                 {{evstart.date().day }}/{{evstart.date().month }} -
                 {{event['title']}}
             </a>
-        
+
             </h5>
            </div>
            <div class="card-body">
@@ -39,7 +51,7 @@
                     <b>Até:</b> {{evend.date().day }}/{{evend.date().month }}/{{evend.date().year }} às {{evend.time()}}
                 </p>
             {% endif %}
-            
+
             {% if event.location %}
             <p><b>Local:</b> {{event.location}}</p>
             {% endif %}
@@ -52,7 +64,7 @@
     {% endif %}
     {% endfor %}
 </div>
-   
+
 <br />
 <h2 class="title">Eventos Anteriores</h2>
 <hr />
@@ -63,10 +75,10 @@
         <div class="card">
           <div class="card-header">
             <h5><a href='{{ SITEURL }}/{{event.slug}}.html'>
-                {{evstart.date().day }}/{{evstart.date().month }} - 
+                {{evstart.date().day }}/{{evstart.date().month }} -
                 {{event['title']}}
             </a>
-        
+
             </h5>
         </div>
         <div class="card-body">
@@ -83,7 +95,7 @@
                     <b>Até:</b> {{evend.date().day }}/{{evend.date().month }}/{{evend.date().year }} às {{evend.time()}}
                 </p>
             {% endif %}
-            
+
             {% if event.location %}
             <p><b>Local:</b> {{event.location}}</p>
             {% endif %}
@@ -94,7 +106,7 @@
     </div>
     </div>
     {% endif %}
-    {% endfor %} 
+    {% endfor %}
 </div>
 {% endif %}
 

@@ -14,6 +14,8 @@ DEFAULT_BG = 'images/logo.jpg'
 DATE_TODAY = datetime.now().date()
 SUMMARY_MAX_LENGTH = 60
 APP_ID_FACEBOOK = 'pyladiescaxias'
+API_KEY_MEETUP = '772b514b2dbe5e5d335895f47072'
+ID_MEETUP = 'Pyladies-CaxiasdoSul'
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
