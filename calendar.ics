@@ -31,41 +31,42 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:<p class="first last">Tchelinux é um grupo de usuários de Softwa
  re Livre\, tem o prazer de convidar a comunidade para participar. Nesse ev
- ento estaremos divulgando o Pyladies Caxias\, distribuindo adesivos.</p>\n
+ ento estaremos divulgando o PyLadies Caxias do Sul\, distribuindo adesivos
+ .</p>\n
 DTSTART:2017-10-21 08:30:00
 DTEND:2017-10-21 14:00:00
 DTSTAMP:2017-10-21 08:30:00
 UID:Tchelinux Caxias<p class="first last">Tchelinux é um grupo de usuári
  os de Software Livre\, tem o prazer de convidar a comunidade para particip
- ar. Nesse evento estaremos divulgando o Pyladies Caxias\, distribuindo ade
- sivos.</p>\n
+ ar. Nesse evento estaremos divulgando o PyLadies Caxias do Sul\, distribui
+ ndo adesivos.</p>\n
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:<p class="first last">O PyLadies Caxias do Sul teve seu primeiro e
  ncontro no dia 15 de Julho de 2017\, na Universidade de Caxias do Sul. O e
- vento contou com a presença das Pyladies POA e alunas da Universidade.</p
+ vento contou com a presença das PyLadies POA e alunas da Universidade.</p
  >\n
 DTSTART:2017-07-15 09:00:00
 DTEND:2017-07-15 12:00:00
 DTSTAMP:2017-07-15 09:10:00
-UID:1° Encontro Pyladies<p class="first last">O PyLadies Caxias do Sul te
+UID:1° Encontro PyLadies<p class="first last">O PyLadies Caxias do Sul te
  ve seu primeiro encontro no dia 15 de Julho de 2017\, na Universidade de C
- axias do Sul. O evento contou com a presença das Pyladies POA e alunas da
+ axias do Sul. O evento contou com a presença das PyLadies POA e alunas da
   Universidade.</p>\n
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p class="first last">No dia 07 de outubro de 2017 o Pyladies Caxi
- as realizou seu encontro mensal. Não pode articipar do nosso encontro\, m
- as ficou curiosa para saber o que rolou? Não tem problema!</p>\n
+SUMMARY:<p class="first last">No dia 07 de outubro de 2017 o PyLadies Caxi
+ as do Sul realizou seu encontro mensal. Não pode articipar do nosso encon
+ tro\, mas ficou curiosa para saber o que rolou? Não tem problema!</p>\n
 DTSTART:2017-10-07 09:30:00
 DTEND:2017-10-07 12:00:00
 DTSTAMP:2017-10-07 21:45:28
 UID:Encontro de Outubro 2017<p class="first last">No dia 07 de outubro de 
- 2017 o Pyladies Caxias realizou seu encontro mensal. Não pode articipar d
- o nosso encontro\, mas ficou curiosa para saber o que rolou? Não tem prob
- lema!</p>\n
+ 2017 o PyLadies Caxias do Sul realizou seu encontro mensal. Não pode arti
+ cipar do nosso encontro\, mas ficou curiosa para saber o que rolou? Não t
+ em problema!</p>\n
 PRIORITY:5
 END:VEVENT
 END:VCALENDAR

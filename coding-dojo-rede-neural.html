@@ -5,7 +5,7 @@
     <title>Coding Dojo - Rede Neural</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Pyladies">
+    <meta name="author" content="PyLadies">
 
     <!-- Le styles -->
     <link rel="stylesheet" href="https://pyladiescaxias.github.io/theme/css/bootstrap.min.css" type="text/css" />
@@ -47,11 +47,12 @@
     <link rel="apple-touch-icon" sizes="72x72" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon-114x114.png">
 
-    <link href="https://pyladiescaxias.github.io/" type="application/atom+xml" rel="alternate" title="Pyladies Caxias do Sul ATOM Feed" />
+    <link href="https://pyladiescaxias.github.io/" type="application/atom+xml" rel="alternate" title="PyLadies Caxias do Sul ATOM Feed" />
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://pyladiescaxias.github.io/theme/js/meetup_widget.js"></script>
 
   </head>
 
@@ -60,7 +61,7 @@
       <script>
         window.fbAsyncInit = function() {
         FB.init({
-          appId            : 'Pyladies-Caxias-1858294514418047',
+          appId            : 'pyladiescaxias',
           autoLogAppEvents : true,
           xfbml            : true,
           version          : 'v2.10'
@@ -83,6 +84,13 @@
         js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+              var meetupId = ;
+              PyladiesMeetupWidget.addUpcomingMeetups(meetupId);
+        });
+  	</script>
     <nav class="navbar navbar-expand-md  fixed-top bg-white">
         <a class="navbar-brand" href="https://pyladiescaxias.github.io/index.html"><img class="logo_pyladies" src="https://pyladiescaxias.github.io/images/icones/g4390.png" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,7 +113,7 @@
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-10" id="content">
+        <div class="col-md-9" id="content">
 <section id="content">
         <article>
                 <header>
@@ -152,16 +160,17 @@
 </section>
         </div><!--/span-->
 
-      <div class="col-md-2 sidebar-nav hidden-xs" id="sidebar">
+      <div class="col-md-3 sidebar-nav hidden-xs" id="sidebar">
 
 <ul class="list-group">
 
 <li class="list-group-item disabled"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;SOCIAL</li>
 <li class="list-group-item icon_social">
-    <a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/" title="Facebook"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>
+    <a href="https://www.facebook.com/pyladiescaxias/" title="Facebook"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>
     <a href="https://github.com/PyladiesCaxias" title="GitHub"><i class="fa fa-github-square fa-2x fa-fw"></i></a>
     <a href="https://chat.whatsapp.com/6zWbhXYgPWsEa8G03QJo0b" title="Whatsapp"><i class="fa fa-whatsapp fa-2x fa-fw"></i></a>
-    <a href="https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY" title="Slack PyladiesRS"><i class="fa fa-slack fa-2x fa-fw"></i></a>
+    <a href="https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY" title="Slack PyLadiesRS"><i class="fa fa-slack fa-2x fa-fw"></i></a>
+    <a href="https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/" title="Meetup"><i class="fa fa-meetup fa-2x fa-fw"></i></a>
 </li>
 
 <li class="list-group-item icon_email">
@@ -171,7 +180,7 @@
     <li class="list-group-item disabled"><i class="fa fa-external-link fa-fw"></i> LINKS</li>
         <li class="list-group-item "><a href="http://python.org/"><i class="fa fa-external-link fa-fw"></i> Python.org</a></li>
         <li class="list-group-item "><a href="http://python.org.br/"><i class="fa fa-external-link fa-fw"></i> Python Brasil</a></li>
-        <li class="list-group-item "><a href="http://brasil.pyladies.com/"><i class="fa fa-external-link fa-fw"></i> Pyladies Brasil</a></li>
+        <li class="list-group-item "><a href="http://brasil.pyladies.com/"><i class="fa fa-external-link fa-fw"></i> PyLadiesBrasil</a></li>
     <li class="list-group-item disabled"><i class="fa fa-external-link fa-fw"></i> LINKS DE EVENTOS</li>
         <li class="list-group-item "><a href="http://2018.pythonbrasil.org.br/"><i class="fa fa-external-link fa-fw"></i> Python Brasil[14] - 2018</a></li>
         <li class="list-group-item "><a href="http://pycaxias.org/"><i class="fa fa-external-link fa-fw"></i> PyCaxias</a></li>
@@ -179,17 +188,29 @@
 
 <li class="list-group-item disabled"><i class="fa fa-tags fa-fw"></i>Tags</li>
 <li class="list-group-item ">
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/mulheres.html">
-       <i class="fa fa-tags fa-fw"></i>mulheres
+    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies-poa.html">
+       <i class="fa fa-tags fa-fw"></i>pyladies poa
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/encontros.html">
+       <i class="fa fa-tags fa-fw"></i>encontros
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django.html">
+       <i class="fa fa-tags fa-fw"></i>django
     </a>
     <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django_girls.html">
        <i class="fa fa-tags fa-fw"></i>django_girls
     </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/mulheres.html">
+       <i class="fa fa-tags fa-fw"></i>mulheres
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django-girls.html">
+       <i class="fa fa-tags fa-fw"></i>django girls
+    </a>
+    <a class="tag-1" href="https://pyladiescaxias.github.io/tag/eventos.html">
+       <i class="fa fa-tags fa-fw"></i>eventos
+    </a>
     <a class="tag-0" href="https://pyladiescaxias.github.io/tag/python.html">
        <i class="fa fa-tags fa-fw"></i>python
-    </a>
-    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies-poa.html">
-       <i class="fa fa-tags fa-fw"></i>pyladies poa
     </a>
     <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies.html">
        <i class="fa fa-tags fa-fw"></i>pyladies
@@ -197,20 +218,8 @@
     <a class="tag-2" href="https://pyladiescaxias.github.io/tag/linux.html">
        <i class="fa fa-tags fa-fw"></i>linux
     </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django-girls.html">
-       <i class="fa fa-tags fa-fw"></i>django girls
-    </a>
     <a class="tag-2" href="https://pyladiescaxias.github.io/tag/programacao.html">
        <i class="fa fa-tags fa-fw"></i>programação
-    </a>
-    <a class="tag-1" href="https://pyladiescaxias.github.io/tag/eventos.html">
-       <i class="fa fa-tags fa-fw"></i>eventos
-    </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django.html">
-       <i class="fa fa-tags fa-fw"></i>django
-    </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/encontros.html">
-       <i class="fa fa-tags fa-fw"></i>encontros
     </a>
 </li>
 
@@ -218,11 +227,11 @@
 <br />
 <div class="card">
     <div class="card-body">
-        <div class="fb-page" data-href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"
+        <div class="fb-page" data-href="https://www.facebook.com/pyladiescaxias/"
             data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
             data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/Pyladies-Caxias-1858294514418047/" class="fb-xfbml-parse-ignore">
-                <a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"><i class="fa fa-facebook-square fa-fw"></i> Pyladies Caxias</a>
+            <blockquote cite="https://www.facebook.com/pyladiescaxias/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/pyladiescaxias/"><i class="fa fa-facebook-square fa-fw"></i> PyLadies Caxias do Sul</a>
             </blockquote>
         </div>
     </div>
