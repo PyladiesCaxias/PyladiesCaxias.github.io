@@ -116,7 +116,7 @@ No arquivo: pelicanconf.py
 	* adicionar uma tupla no LINKS:
 		ex: ('Nome site', link),
 
-* Para adicionar links para redes social do Pyladies Caxias:
+* Para adicionar links para redes social do PyLadies Caxias do Sul:
 	* adicionar uma tupla no SOCIAL:
 			ex: ('nome_do_icone', 'Titulo', 'link'),
 

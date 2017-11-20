@@ -10,7 +10,7 @@
 :event-end:  2017-10-21 14:00
 :location: Uniftec - Caxias do Sul
 
-:summary: Tchelinux é um grupo de usuários de Software Livre, tem o prazer de convidar a comunidade para participar. Nesse evento estaremos divulgando o Pyladies Caxias, distribuindo adesivos.
+:summary: Tchelinux é um grupo de usuários de Software Livre, tem o prazer de convidar a comunidade para participar. Nesse evento estaremos divulgando o PyLadies Caxias do Sul, distribuindo adesivos.
 
 
 **Sobre o Evento**
@@ -18,7 +18,7 @@
 O grupo de usuários de Software Livre Tchelinux, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no **dia 21 de
 outubro de 2017 a partir das 8:30h na UNIFTEC em Caxias**.
 
-Nesse evento estaremos divulgando o Pyladies Caxias, distribuindo adesivos e tirando dúvidas, então fique a vontade para vir falar conosco.
+Nesse evento estaremos divulgando o PyLadies Caxias do Sul, distribuindo adesivos e tirando dúvidas, então fique a vontade para vir falar conosco.
 
 .. image:: images/tchelinux.png
 	:alt: Logo Tchelinux

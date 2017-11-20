@@ -7,7 +7,7 @@
 :slug: python-sul-2017
 
 :event-start: 2017-09-8 8:30
-:event-duration: 
+:event-duration:
 :event-end:  2017-09-10 18:00
 :location: UCS - Universidade de Caxias do Sul
 
@@ -33,15 +33,15 @@ A Python Sul 2017 é organizada pela comunidade Python do Rio Grande do Sul, com
 **twitter:** *@pythonsul*
 
 
-**Palestra Pyladies**
+**Palestra PyLadies**
 
 
-O Payladies Caxias junto com o Pyladies POA, fez uma palestra na Python Sul: **"PyLadies: mulheres aprendendo (e ensinando) a programar"**.
+O Payladies Caxias junto com o PyLadiesPOA, fez uma palestra na Python Sul: **"PyLadies: mulheres aprendendo (e ensinando) a programar"**.
 Confiram a palestra no link: `Palestra PDF <{filename}/pdfs/PyLadies.pdf>`_
 
-**Sprint Pyladies**
+**Sprint PyLadies**
 
-No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do Pyladies Caxias. Veja as fotos do sprint:
+No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do PyLadies Caxias do Sul. Veja as fotos do sprint:
 
 .. image:: images/pythonsul/2017-09-10_Sprint_pyladies_final.JPG
 	:alt: Sprint Python Sul
@@ -71,8 +71,8 @@ Confira algumas fotos do evento:
 	:width: 500px
 
 .. image:: images/pythonsul/FB_IMG_1505340925683.jpg
-	:alt: Pyladies
+	:alt: PyLadies
 	:width: 500px
 .. image:: images/pythonsul/2017-09-09_Pythonsul_todos.jpg
-	:alt: Pyladies
+	:alt: PyLadies
 	:width: 500px

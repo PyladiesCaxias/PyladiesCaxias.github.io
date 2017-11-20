@@ -1,9 +1,9 @@
 title: Sobre
 tags: pyladies, women, python
-description: Pyladies Caxias do Sul
+description: PyLadies Caxias do Sul
 template: page
 
-# Pyladies
+# PyLadies
 
 
 O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica.
@@ -11,7 +11,7 @@ Queremos mudar essa realidade de poucas garotas em uma área tão rica e fantás
 
 ![Sprint Python Sul]({filename}/images/pyladies_equals_you.png)
 
-# Sobre o Pyladies Caxias
+# Sobre o PyLadies Caxias do Sul
 
 Somos mulheres que sabem e/ou estão aprendendo Python e estamos organizando esse grupo para trocar experiências e aprendizados.
 

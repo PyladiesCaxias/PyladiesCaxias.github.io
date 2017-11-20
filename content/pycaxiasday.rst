@@ -30,7 +30,7 @@ Este será o 1° dos encontros de Python da região, o encontro é gratuito e ab
 
 Terá Palestra das meninas do Django Girls!!
 
-A palestra será: **"Construindo sites com o framework Django"**, e será ministrada pelas Pyladies **Eliane Isadora Faveron**, **Jaqueline Trevizan** e **Maria Carolina Prado Lima**, elas participaram do **Django Girls Caxias do Sul**.
+A palestra será: **"Construindo sites com o framework Django"**, e será ministrada pelas PyLadies**Eliane Isadora Faveron**, **Jaqueline Trevizan** e **Maria Carolina Prado Lima**, elas participaram do **Django Girls Caxias do Sul**.
 
 O evento é para iniciantes e não precisa de nenhum conhecimento e Python. 
 
