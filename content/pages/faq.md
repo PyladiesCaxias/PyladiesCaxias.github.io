@@ -13,9 +13,10 @@ Incentivar mulheres a entrarem na área de computação e motivar as mulheres qu
 
 ### Como posso participar do grupo?
 
-Você pode ir nos encontros sempre que puder. Se tiver dúvidas nos mande um email
+Você pode ir nos encontros sempre que puder. Se tiver dúvidas nos mande um em
 [pyladiescaxias@gmail.com](mailto:pyladiescaxias@gmail.com), ou mande uma mensagem no
-[Facebook](https://www.facebook.com/pyladiescaxias/).
+[Facebook](https://www.facebook.com/pyladiescaxias/). [Clique aqui](http://meetu.ps/c/3D4pY/zCHHh/f) para
+participar do nosso grupo do meetup e receber as notificações dos eventos.
 
 ### Tem algum requisito para participar do grupo?
 

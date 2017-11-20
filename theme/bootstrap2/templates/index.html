@@ -22,10 +22,10 @@
 <div class="row">
     <!-- <div id="upcomingMeetupsList"></div> -->
     {% if articles %}
-    
+
         {% for article in (articles_page.object_list if articles_page else articles) %}
         <div class="col-md-12 py-events">
-            <h4><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date.day }}/{{ article.date.month }} - {{ article.title }}</a></h2>
+            <h4><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
 
             <small>{% include "article_infos.html" %}</small>
             <br />
@@ -34,7 +34,7 @@
 
         </div>
         {% endfor %}
-    
+
     {% endif %}
 </div>
 
