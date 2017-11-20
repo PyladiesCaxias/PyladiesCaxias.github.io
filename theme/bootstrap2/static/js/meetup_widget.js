@@ -7,7 +7,7 @@
  */
 
 var PyladiesMeetupWidget = (function() {
-  var key = '{{ API_KEY_MEETUP }}';
+  var key = '772b514b2dbe5e5d335895f47072';
 
   // Private methods //
 
@@ -32,8 +32,7 @@ var PyladiesMeetupWidget = (function() {
     // fetch data
     console.log("aquiii");
     $.ajax({
-      url: 'http://api.meetup.com/2/events.json?key=' + key + '&group_id=' + ids +
-        '&fields=group_photo&time=0m,1m&status=upcoming&sign=true&limited_events=true',
+      url: 'https://api.meetup.com/'+ids+'/events?&sign=true&photo-host=public&page=20&status=upcoming',
       dataType: 'jsonp',
       success: function(data) {
         _buildHtml(data);
@@ -44,17 +43,19 @@ var PyladiesMeetupWidget = (function() {
     });
   };
 
-  _getJSON = function(datum) {
+  _getJSON = function(response) {
     // {_buildHtml helper}
     // note: Not every meetup group event request returns a photo--not sure why, but
     // noticed that neither Taiwan or Bangalore's logos returned, so perhaps there
     // is some difference in data offered in parts of Asia?
     var json = {
-      thumbLink: datum.group.group_photo ? datum.group.group_photo.thumb_link : "",
-      groupName: datum.group.name,
-      eventLink: datum.event_url ? _createEventUrls(datum.event_url) : _createGroupUrl(datum.group),
-      eventName: datum.name,
-      eventDate: _convertMilisecondsToDate(datum.time)
+      local: response.venue.name,
+      link: response.link,
+      description: response.description,
+      eventName: response.name,
+      eventDate: response.local_date,
+      eventTime: response.local_time,
+
     };
 
     return json;
@@ -66,33 +67,31 @@ var PyladiesMeetupWidget = (function() {
     var json;
 
     // remove any old meetup list still attached to dom and append new $ul
-    $('#upcomingMeetupsList ul').remove();
-    $('#upcomingMeetupsList').append('<ul></ul>');
-
-    for (var i = 0; i < data.results.length; i++) {
-      datum = data.results[i];
+    $('#upcomingMeetupsList div').remove();
+    console.log(data.data);
+    for (var i = 0; i < data.data.length; i++) {
+      datum = data.data[i];
       json = _getJSON(datum);
 
-      // todo(fw): pull this out into a template
-      html = '<img class="meetup_group_icon" src="' + json.thumbLink + '" height="80" width="80" />';
-      html += '<p class="meetup_listing_group">' + json.groupName + '</p>';
-      html += '<p class="meetup_listing_event_title"><a href=' + json.eventLink + '>' + json.eventName + '</a></p>';
-      html += '<p class="meetup_event_date">' + json.eventDate + '</p>';
+      html = '<div class="col-md-6 col-sm-12 col-xs-12"><div class="card"><div class="card-header">';
+      html += '<h5><a href="'+json.link+'">'+json.eventDate + '-' +json.eventName +'</a></h5></div>';
+      html += '<div class="card-body"><p><b>Data:</b>'+json.eventDate +'</p><p><b>Hora:</b>' + json.eventTime + '</p>';
+      html += '<p><b>Local:</b>'+ json.local+ '</p><p>'+json.description+'</p>';
+      html += '<p><a class="btn btn-secondary btn-sm btn-pydefault" href="'+ json.link +'" role="button">Saiba mais e Inscreva-se »</a></p></div></div></div>';
 
-      $('#upcomingMeetupsList ul').append('<li>' + html + '</li>');
+      $('#upcomingMeetupsList').append(html);
     }
   };
 
   _handleError = function(data) {
     // remove any stale list attached to dom and print error message
-    $('#upcomingMeetupsList ul').remove();
+    $('#upcomingMeetupsList ').remove();
     $('#upcomingMeetupsList')
-      .append('<ul><li>Sorry, we are unable to reach Meetup.com at this time</li></ul>');
+      .append('<div>Sorry, we are unable to reach Meetup.com at this time</div>');
   };
 
   return {
     // returns public method
-    console.log("chegou aqui");
     addUpcomingMeetups: function(chapterIds) {
       _makeAjaxRequest(chapterIds);
     }

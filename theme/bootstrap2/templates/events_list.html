@@ -2,8 +2,8 @@
 
 {% block jumbotron %}
 <div class="jumbotron pyladiesJumbotron hidden-xs">
-    <h1 class="display-3">{{ page.title }}</h1>
-    <p>{{ page.description }}
+    <h1 class="display-6">{{ page.title }}</h1>
+    <p>{{ page.content }}
     </p>
 </div>
 
@@ -12,19 +12,17 @@
 {% block content %}
 <script type="text/javascript">
     $(document).ready(function() {
-        console.log("aquiii");
-        var meetupId = "{{ID_MEETUP}}";
+        var meetupId = '{{ ID_MEETUP }}';
 
         PyladiesMeetupWidget.addUpcomingMeetups(meetupId);
-        console.log("passou por aqui");
     });
 </script>
-<div id="upcomingMeetupsList"></div>
 {% if events_list %}
 
 <h2 class="title">Próximos Eventos</h2>
 <hr />
 <div class="row">
+    <div id="upcomingMeetupsList"></div>
     {% for evstart, evend, event in events_list %}
         {% if evend.date() >= DATE_TODAY %}
       <div class="col-md-6 col-sm-12 col-xs-12">
@@ -63,6 +61,7 @@
     </div>
     {% endif %}
     {% endfor %}
+
 </div>
 
 <br />

@@ -15,7 +15,7 @@ DATE_TODAY = datetime.now().date()
 SUMMARY_MAX_LENGTH = 60
 APP_ID_FACEBOOK = 'pyladiescaxias'
 API_KEY_MEETUP = '772b514b2dbe5e5d335895f47072'
-ID_MEETUP = 'Pyladies-CaxiasdoSul'
+ID_MEETUP = 'PyLadies-CaxiasdoSul'
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -55,7 +55,8 @@ LINKS = (('Python.org', 'http://python.org/'),
 SOCIAL = (('facebook-square', 'Facebook','https://www.facebook.com/pyladiescaxias/'),
          ('github-square', 'GitHub','https://github.com/PyladiesCaxias'),
          ('whatsapp','Whatsapp', 'https://chat.whatsapp.com/6zWbhXYgPWsEa8G03QJo0b'),
-         ('slack', 'Slack PyLadiesRS', 'https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY'),)
+         ('slack', 'Slack PyLadiesRS', 'https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY'),
+         ('meetup', 'Meetup', 'https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/'),)
 
 EMAIL = ('envelope','pyladiescaxias@gmail.com', 'mailto:pyladiescaxias@gmail.com')
 
