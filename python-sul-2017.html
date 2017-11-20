@@ -5,10 +5,10 @@
     <title>Python Sul 2017</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Pyladies">
+    <meta name="author" content="PyLadies">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="https://pyladiescaxias.github.io/theme/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://pyladiescaxias.github.io/site/theme/css/bootstrap.min.css" type="text/css" />
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -30,11 +30,11 @@
         font-size: 6pt;
      }
     </style>
-    <link href="https://pyladiescaxias.github.io/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="https://pyladiescaxias.github.io/theme/css/style.css" rel="stylesheet">
-    <link href="https://pyladiescaxias.github.io/theme/css/font-awesome.css" rel="stylesheet">
-    <link href="https://pyladiescaxias.github.io/theme/css/pygments.css" rel="stylesheet">
-    <link href="https://pyladiescaxias.github.io/theme/css/custom.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/style.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/font-awesome.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/pygments.css" rel="stylesheet">
+    <link href="https://pyladiescaxias.github.io/site/theme/css/custom.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -42,16 +42,17 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="https://pyladiescaxias.github.io/images/icones/favicon.ico">
-    <link rel="apple-touch-icon" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://pyladiescaxias.github.io/theme/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="https://pyladiescaxias.github.io/site/images/icones/favicon.ico">
+    <link rel="apple-touch-icon" href="https://pyladiescaxias.github.io/site/theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://pyladiescaxias.github.io/site/theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://pyladiescaxias.github.io/site/theme/images/apple-touch-icon-114x114.png">
 
-    <link href="https://pyladiescaxias.github.io/" type="application/atom+xml" rel="alternate" title="Pyladies Caxias do Sul ATOM Feed" />
+    <link href="https://pyladiescaxias.github.io/site/" type="application/atom+xml" rel="alternate" title="PyLadies Caxias do Sul ATOM Feed" />
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://pyladiescaxias.github.io/site/theme/js/meetup_widget.js"></script>
 
   </head>
 
@@ -60,7 +61,7 @@
       <script>
         window.fbAsyncInit = function() {
         FB.init({
-          appId            : 'Pyladies-Caxias-1858294514418047',
+          appId            : 'pyladiescaxias',
           autoLogAppEvents : true,
           xfbml            : true,
           version          : 'v2.10'
@@ -83,19 +84,26 @@
         js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+              var meetupId = ;
+              PyladiesMeetupWidget.addUpcomingMeetups(meetupId);
+        });
+  	</script>
     <nav class="navbar navbar-expand-md  fixed-top bg-white">
-        <a class="navbar-brand" href="https://pyladiescaxias.github.io/index.html"><img class="logo_pyladies" src="https://pyladiescaxias.github.io/images/icones/g4390.png" /></a>
+        <a class="navbar-brand" href="https://pyladiescaxias.github.io/site/index.html"><img class="logo_pyladies" src="https://pyladiescaxias.github.io/site/images/icones/g4390.png" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fa fa-navicon fa-fw"></i></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/sobre/">Sobre</a>
-                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/events-list/">Eventos</a>
-                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/duvidas/">Dúvidas?</a>
-                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/materiais/">Materiais</a>
-                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/">site</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/sobre/">Sobre</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/events-list/">Eventos</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/duvidas/">Dúvidas?</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/materiais/">Materiais</a>
+                <a class="nav-item nav-link" href="https://pyladiescaxias.github.io/site/site/">site</a>
           </div>
               <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type="text">
@@ -105,7 +113,7 @@
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-10" id="content">
+        <div class="col-md-9" id="content">
 <section id="content">
         <article>
                 <header>
@@ -124,12 +132,12 @@
         08-09-2017
     </span>
     <span class="info-destaque">Categoria:</span>
-    <a href="https://pyladiescaxias.github.io/category/eventos.html"><i class="fa fa-folder-open fa-fw"></i>Eventos</a>
+    <a href="https://pyladiescaxias.github.io/site/category/eventos.html"><i class="fa fa-folder-open fa-fw"></i>Eventos</a>
 
 
 <span class="info-destaque"><i class="fa fa-tags fa-fw"></i>Tags:</span>
-	<a href="https://pyladiescaxias.github.io/tag/eventos.html"><i class="fa fa-tag fa-fw"></i>eventos</a>
-	<a href="https://pyladiescaxias.github.io/tag/python.html"><i class="fa fa-tag fa-fw"></i>python</a>
+	<a href="https://pyladiescaxias.github.io/site/tag/eventos.html"><i class="fa fa-tag fa-fw"></i>eventos</a>
+	<a href="https://pyladiescaxias.github.io/site/tag/python.html"><i class="fa fa-tag fa-fw"></i>python</a>
 </div><!-- /.post-info -->                <p><strong>1° Conferência das communidades Python da Região Sul</strong></p>
 <p>A <a class="reference external" href="http://pythonsul.org/">Python Sul</a> reuniu pessoas durante 3 dias, 8,9 e 10 de setembro, para discutir sobre software livre, práticas de
 desenvolvimento e Python.</p>
@@ -139,11 +147,11 @@ desenvolvimento e Python.</p>
 <p><strong>email:</strong> <em>pythonsul&#64;gmail.com</em></p>
 <p><strong>facebook:</strong> <em>Python Sul</em></p>
 <p><strong>twitter:</strong> <em>&#64;pythonsul</em></p>
-<p><strong>Palestra Pyladies</strong></p>
-<p>O Payladies Caxias junto com o Pyladies POA, fez uma palestra na Python Sul: <strong>&quot;PyLadies: mulheres aprendendo (e ensinando) a programar&quot;</strong>.
-Confiram a palestra no link: <a class="reference external" href="https://pyladiescaxias.github.io/pdfs/PyLadies.pdf">Palestra PDF</a></p>
-<p><strong>Sprint Pyladies</strong></p>
-<p>No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do Pyladies Caxias. Veja as fotos do sprint:</p>
+<p><strong>Palestra PyLadies</strong></p>
+<p>O Payladies Caxias junto com o PyLadiesPOA, fez uma palestra na Python Sul: <strong>&quot;PyLadies: mulheres aprendendo (e ensinando) a programar&quot;</strong>.
+Confiram a palestra no link: <a class="reference external" href="https://pyladiescaxias.github.io/site/pdfs/PyLadies.pdf">Palestra PDF</a></p>
+<p><strong>Sprint PyLadies</strong></p>
+<p>No Sprint da Python Sul, fizemos o sprint de desenvolvimento deste site do PyLadies Caxias do Sul. Veja as fotos do sprint:</p>
 <img alt="Sprint Python Sul" src="images/pythonsul/2017-09-10_Sprint_pyladies_final.JPG" style="width: 500px;" />
 <img alt="Sprint Python Sul 2" src="images/pythonsul/sprint2.jpg" />
 <p>Você pode ver os videos das palestras no canal do Youtube do Rede Neural: <a class="reference external" href="https://www.youtube.com/channel/UCjqV6ib-IdDCICWKlnNiwhg">Rede Neural</a></p>
@@ -152,24 +160,25 @@ Confiram a palestra no link: <a class="reference external" href="https://pyladie
 <img alt="Pylestra" src="images/pythonsul/FB_IMG_1505305565085.jpg" style="width: 500px;" />
 <img alt="Foto Oficial" src="images/pythonsul/FB_IMG_1505318985556.jpg" style="width: 500px;" />
 <img alt="Organizacao" src="images/pythonsul/FB_IMG_1505329694796.jpg" style="width: 500px;" />
-<img alt="Pyladies" src="images/pythonsul/FB_IMG_1505340925683.jpg" style="width: 500px;" />
-<img alt="Pyladies" src="images/pythonsul/2017-09-09_Pythonsul_todos.jpg" style="width: 500px;" />
+<img alt="PyLadies" src="images/pythonsul/FB_IMG_1505340925683.jpg" style="width: 500px;" />
+<img alt="PyLadies" src="images/pythonsul/2017-09-09_Pythonsul_todos.jpg" style="width: 500px;" />
 
                 </div><!-- /.entry-content -->
         </article>
 </section>
         </div><!--/span-->
 
-      <div class="col-md-2 sidebar-nav hidden-xs" id="sidebar">
+      <div class="col-md-3 sidebar-nav hidden-xs" id="sidebar">
 
 <ul class="list-group">
 
 <li class="list-group-item disabled"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;SOCIAL</li>
 <li class="list-group-item icon_social">
-    <a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/" title="Facebook"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>
+    <a href="https://www.facebook.com/pyladiescaxias/" title="Facebook"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>
     <a href="https://github.com/PyladiesCaxias" title="GitHub"><i class="fa fa-github-square fa-2x fa-fw"></i></a>
     <a href="https://chat.whatsapp.com/6zWbhXYgPWsEa8G03QJo0b" title="Whatsapp"><i class="fa fa-whatsapp fa-2x fa-fw"></i></a>
-    <a href="https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY" title="Slack PyladiesRS"><i class="fa fa-slack fa-2x fa-fw"></i></a>
+    <a href="https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY" title="Slack PyLadiesRS"><i class="fa fa-slack fa-2x fa-fw"></i></a>
+    <a href="https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/" title="Meetup"><i class="fa fa-meetup fa-2x fa-fw"></i></a>
 </li>
 
 <li class="list-group-item icon_email">
@@ -179,7 +188,7 @@ Confiram a palestra no link: <a class="reference external" href="https://pyladie
     <li class="list-group-item disabled"><i class="fa fa-external-link fa-fw"></i> LINKS</li>
         <li class="list-group-item "><a href="http://python.org/"><i class="fa fa-external-link fa-fw"></i> Python.org</a></li>
         <li class="list-group-item "><a href="http://python.org.br/"><i class="fa fa-external-link fa-fw"></i> Python Brasil</a></li>
-        <li class="list-group-item "><a href="http://brasil.pyladies.com/"><i class="fa fa-external-link fa-fw"></i> Pyladies Brasil</a></li>
+        <li class="list-group-item "><a href="http://brasil.pyladies.com/"><i class="fa fa-external-link fa-fw"></i> PyLadiesBrasil</a></li>
     <li class="list-group-item disabled"><i class="fa fa-external-link fa-fw"></i> LINKS DE EVENTOS</li>
         <li class="list-group-item "><a href="http://2018.pythonbrasil.org.br/"><i class="fa fa-external-link fa-fw"></i> Python Brasil[14] - 2018</a></li>
         <li class="list-group-item "><a href="http://pycaxias.org/"><i class="fa fa-external-link fa-fw"></i> PyCaxias</a></li>
@@ -187,38 +196,38 @@ Confiram a palestra no link: <a class="reference external" href="https://pyladie
 
 <li class="list-group-item disabled"><i class="fa fa-tags fa-fw"></i>Tags</li>
 <li class="list-group-item ">
-    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/programacao.html">
-       <i class="fa fa-tags fa-fw"></i>programação
-    </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django_girls.html">
-       <i class="fa fa-tags fa-fw"></i>django_girls
-    </a>
-    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies.html">
-       <i class="fa fa-tags fa-fw"></i>pyladies
-    </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/mulheres.html">
+    <a class="tag-4" href="https://pyladiescaxias.github.io/site/tag/mulheres.html">
        <i class="fa fa-tags fa-fw"></i>mulheres
     </a>
-    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/pyladies-poa.html">
-       <i class="fa fa-tags fa-fw"></i>pyladies poa
-    </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django.html">
+    <a class="tag-4" href="https://pyladiescaxias.github.io/site/tag/django.html">
        <i class="fa fa-tags fa-fw"></i>django
     </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/django-girls.html">
+    <a class="tag-4" href="https://pyladiescaxias.github.io/site/tag/django-girls.html">
        <i class="fa fa-tags fa-fw"></i>django girls
     </a>
-    <a class="tag-4" href="https://pyladiescaxias.github.io/tag/encontros.html">
-       <i class="fa fa-tags fa-fw"></i>encontros
-    </a>
-    <a class="tag-0" href="https://pyladiescaxias.github.io/tag/python.html">
-       <i class="fa fa-tags fa-fw"></i>python
-    </a>
-    <a class="tag-2" href="https://pyladiescaxias.github.io/tag/linux.html">
+    <a class="tag-2" href="https://pyladiescaxias.github.io/site/tag/linux.html">
        <i class="fa fa-tags fa-fw"></i>linux
     </a>
-    <a class="tag-1" href="https://pyladiescaxias.github.io/tag/eventos.html">
+    <a class="tag-4" href="https://pyladiescaxias.github.io/site/tag/django_girls.html">
+       <i class="fa fa-tags fa-fw"></i>django_girls
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/site/tag/programacao.html">
+       <i class="fa fa-tags fa-fw"></i>programação
+    </a>
+    <a class="tag-4" href="https://pyladiescaxias.github.io/site/tag/encontros.html">
+       <i class="fa fa-tags fa-fw"></i>encontros
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/site/tag/pyladies-poa.html">
+       <i class="fa fa-tags fa-fw"></i>pyladies poa
+    </a>
+    <a class="tag-1" href="https://pyladiescaxias.github.io/site/tag/eventos.html">
        <i class="fa fa-tags fa-fw"></i>eventos
+    </a>
+    <a class="tag-2" href="https://pyladiescaxias.github.io/site/tag/pyladies.html">
+       <i class="fa fa-tags fa-fw"></i>pyladies
+    </a>
+    <a class="tag-0" href="https://pyladiescaxias.github.io/site/tag/python.html">
+       <i class="fa fa-tags fa-fw"></i>python
     </a>
 </li>
 
@@ -226,11 +235,11 @@ Confiram a palestra no link: <a class="reference external" href="https://pyladie
 <br />
 <div class="card">
     <div class="card-body">
-        <div class="fb-page" data-href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"
+        <div class="fb-page" data-href="https://www.facebook.com/pyladiescaxias/"
             data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
             data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/Pyladies-Caxias-1858294514418047/" class="fb-xfbml-parse-ignore">
-                <a href="https://www.facebook.com/Pyladies-Caxias-1858294514418047/"><i class="fa fa-facebook-square fa-fw"></i> Pyladies Caxias</a>
+            <blockquote cite="https://www.facebook.com/pyladiescaxias/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/pyladiescaxias/"><i class="fa fa-facebook-square fa-fw"></i> PyLadies Caxias do Sul</a>
             </blockquote>
         </div>
     </div>
@@ -256,7 +265,7 @@ Confiram a palestra no link: <a class="reference external" href="https://pyladie
 
     <!-- Le javascript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://pyladiescaxias.github.io/theme/js/jquery-1.7.2.min.js"></script>
-    <script src="https://pyladiescaxias.github.io/theme/js/bootstrap.min.js"></script>
+    <script src="https://pyladiescaxias.github.io/site/theme/js/jquery-1.7.2.min.js"></script>
+    <script src="https://pyladiescaxias.github.io/site/theme/js/bootstrap.min.js"></script>
   </body>
 </html>

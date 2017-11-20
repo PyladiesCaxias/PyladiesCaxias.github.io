@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pyladies Caxias do Sul - misc</title><link href="https://pyladiescaxias.github.io/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/</id><updated>2017-10-19T09:06:19-02:00</updated><entry><title>Pyladies Brindes</title><link href="https://pyladiescaxias.github.io/pyladies-brindes.html" rel="alternate"></link><published>2017-10-19T09:06:19-02:00</published><updated>2017-10-19T09:06:19-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-19:/pyladies-brindes.html</id><summary type="html">&lt;p&gt;❤️ Ficaram prontos nossos adesivos!! ❤️&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/images/FB_IMG_1508373367705.jpg" width="300px;"&gt;
-&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/images/FB_IMG_1508411230524.jpg" width="300px;"&gt;&lt;/p&gt;
-&lt;p&gt;Quer garantir o seu? Estaremos distribuindo no Tchelinux Caxias e nos encontros do Pyladies.&lt;/p&gt;</summary><content type="html">&lt;p&gt;❤️ Ficaram prontos nossos adesivos!! ❤️&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/images/FB_IMG_1508373367705.jpg" width="300px;"&gt;
-&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/images/FB_IMG_1508411230524.jpg" width="300px;"&gt;&lt;/p&gt;
-&lt;p&gt;Quer garantir o seu? Estaremos distribuindo no Tchelinux Caxias e nos encontros do Pyladies.&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>Django Girls Rio Grande do Sul 2018</title><link href="https://pyladiescaxias.github.io/django-girls-rio-grande-do-sul-2018.html" rel="alternate"></link><published>2017-10-18T11:39:28-02:00</published><updated>2017-10-18T11:39:28-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-18:/django-girls-rio-grande-do-sul-2018.html</id><summary type="html">&lt;p&gt;A Python Sul movimentou mesmo a região! Nos perguntamos, E agora? O que vem depois? Qual a próxima cidade?&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyLadies Caxias do Sul - misc</title><link href="https://pyladiescaxias.github.io/site/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/site/</id><updated>2017-10-19T09:06:19-02:00</updated><entry><title>PyLadiesBrindes</title><link href="https://pyladiescaxias.github.io/site/pyladiesbrindes.html" rel="alternate"></link><published>2017-10-19T09:06:19-02:00</published><updated>2017-10-19T09:06:19-02:00</updated><author><name>PyLadies</name></author><id>tag:pyladiescaxias.github.io,2017-10-19:/site/pyladiesbrindes.html</id><summary type="html">&lt;p&gt;❤️ Ficaram prontos nossos adesivos!! ❤️&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/site/images/FB_IMG_1508373367705.jpg" width="300px;"&gt;
+&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/site/images/FB_IMG_1508411230524.jpg" width="300px;"&gt;&lt;/p&gt;
+&lt;p&gt;Quer garantir o seu? Estaremos distribuindo no Tchelinux Caxias e nos encontros do PyLadies.&lt;/p&gt;</summary><content type="html">&lt;p&gt;❤️ Ficaram prontos nossos adesivos!! ❤️&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/site/images/FB_IMG_1508373367705.jpg" width="300px;"&gt;
+&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/site/images/FB_IMG_1508411230524.jpg" width="300px;"&gt;&lt;/p&gt;
+&lt;p&gt;Quer garantir o seu? Estaremos distribuindo no Tchelinux Caxias e nos encontros do PyLadies.&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>Django Girls Rio Grande do Sul 2018</title><link href="https://pyladiescaxias.github.io/site/django-girls-rio-grande-do-sul-2018.html" rel="alternate"></link><published>2017-10-18T11:39:28-02:00</published><updated>2017-10-18T11:39:28-02:00</updated><author><name>PyLadies</name></author><id>tag:pyladiescaxias.github.io,2017-10-18:/site/django-girls-rio-grande-do-sul-2018.html</id><summary type="html">&lt;p&gt;A Python Sul movimentou mesmo a região! Nos perguntamos, E agora? O que vem depois? Qual a próxima cidade?&lt;/p&gt;
 &lt;p&gt;E logo as ideias surgiram, então teremos 5 oficinas do Django Girls no Rio Grande do Sul em 2018!!&lt;/p&gt;
 &lt;p&gt;Confira quais são as cidades: Porto Alegre, Santa Maria, Canoas, Bento Gonçalves e Caxias do Sul.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto Treinadores" src="https://pyladiescaxias.github.io/images/DG/36982957166_e3ff38ffbf_z.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto Treinadores" src="https://pyladiescaxias.github.io/site/images/DG/36982957166_e3ff38ffbf_z.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Queremos motivar e inspirar mulheres a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A Python Sul movimentou mesmo a região! Nos perguntamos, E agora? O que vem depois? Qual a próxima cidade?&lt;/p&gt;
 &lt;p&gt;E logo as ideias surgiram, então teremos 5 oficinas do Django Girls no Rio Grande do Sul em 2018!!&lt;/p&gt;
 &lt;p&gt;Confira quais são as cidades: Porto Alegre, Santa Maria, Canoas, Bento Gonçalves e Caxias do Sul.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto Treinadores" src="https://pyladiescaxias.github.io/images/DG/36982957166_e3ff38ffbf_z.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto Treinadores" src="https://pyladiescaxias.github.io/site/images/DG/36982957166_e3ff38ffbf_z.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Queremos motivar e inspirar mulheres a entrar para uma área tão rica que é a computação.&lt;/p&gt;
 &lt;p&gt;Confira a publicação no blog do Django Girls &lt;a href="http://blog.djangogirls.org/post/166221911403/django-girls-rio-grande-do-sul"&gt;Django Girls 2018&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Junte-se a nós&lt;/h2&gt;
 &lt;p&gt;Nosso projeto será maior e melhor com o apoio de empresas e pessoas legais.
 Ajude o nosso evento com dinheiro, conhecimento, tempo ou qualquer outro apoio e torne o Django Girls especial ❤️.
-Se você quer contribuir, entre em contato com a gente!&lt;/p&gt;</content><category term="django"></category><category term="django girls"></category></entry><entry><title>Coding Dojo - Rede Neural</title><link href="https://pyladiescaxias.github.io/coding-dojo-rede-neural.html" rel="alternate"></link><published>2017-10-15T15:45:29-02:00</published><updated>2017-10-15T15:45:29-02:00</updated><author><name>Pyladies</name></author><id>tag:pyladiescaxias.github.io,2017-10-15:/coding-dojo-rede-neural.html</id><summary type="html">&lt;p&gt;No dia 14 de Outubro, participamos do Coding Dojo do &lt;a href="https://www.meetup.com/pt-BR/Rede-Neural/"&gt;Rede Neural&lt;/a&gt;.&lt;/p&gt;
+Se você quer contribuir, entre em contato com a gente!&lt;/p&gt;</content><category term="django"></category><category term="django girls"></category></entry><entry><title>Coding Dojo - Rede Neural</title><link href="https://pyladiescaxias.github.io/site/coding-dojo-rede-neural.html" rel="alternate"></link><published>2017-10-15T15:45:29-02:00</published><updated>2017-10-15T15:45:29-02:00</updated><author><name>PyLadies</name></author><id>tag:pyladiescaxias.github.io,2017-10-15:/site/coding-dojo-rede-neural.html</id><summary type="html">&lt;p&gt;No dia 14 de Outubro, participamos do Coding Dojo do &lt;a href="https://www.meetup.com/pt-BR/Rede-Neural/"&gt;Rede Neural&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Coding Dojo tem como objetivo praticar, aprender e ensinar técnicas de programação, fizemos o exemplo 'fizzbuzz' usando a linguagen de programação python e a tecnica de TDD.&lt;/p&gt;
 &lt;p&gt;O encontro ocorreu na OCA, ali também acontece o &lt;a href="https://www.facebook.com/codeclubocacaxias/"&gt;Code club&lt;/a&gt;, uma rede mundial de clubes de programação para crianças.&lt;/p&gt;
 &lt;p&gt;No …&lt;/p&gt;</summary><content type="html">&lt;p&gt;No dia 14 de Outubro, participamos do Coding Dojo do &lt;a href="https://www.meetup.com/pt-BR/Rede-Neural/"&gt;Rede Neural&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Coding Dojo tem como objetivo praticar, aprender e ensinar técnicas de programação, fizemos o exemplo 'fizzbuzz' usando a linguagen de programação python e a tecnica de TDD.&lt;/p&gt;
 &lt;p&gt;O encontro ocorreu na OCA, ali também acontece o &lt;a href="https://www.facebook.com/codeclubocacaxias/"&gt;Code club&lt;/a&gt;, uma rede mundial de clubes de programação para crianças.&lt;/p&gt;
 &lt;p&gt;No code club os voluntários ensinam crianças a programar criando jogos, animações e páginas de internet. Os voluntários atuam em escolas e/ou espaços públicos, em oficinas de uma hora de duração, uma vez por semana utilizando o material que disponibilizado.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204830.jpg" width="500px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204845.jpg" width="500px;"&gt;
-&lt;img alt="Foto 3" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204851.jpg" width="500px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 4" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204859.jpg" width="500px;"&gt;
-&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204923.jpg" width="500px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 6" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204928.jpg" width="500px;"&gt;
-&lt;img alt="Foto 7" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204932.jpg" width="500px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 8" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204939.jpg" width="500px;"&gt;
-&lt;img alt="Foto 9" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204943.jpg" width="500px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 10" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_204957.jpg" width="500px;"&gt;
-&lt;img alt="Foto 11" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_205007.jpg" width="500px;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Foto 12" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_205015.jpg" width="500px;"&gt;
-&lt;img alt="Foto 13" src="https://pyladiescaxias.github.io/images/redeneural/IMG_20171014_205020.jpg" width="500px;"&gt;&lt;/p&gt;</content><category term="programação"></category><category term="python"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Foto 1" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204830.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 2" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204845.jpg" width="500px;"&gt;
+&lt;img alt="Foto 3" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204851.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 4" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204859.jpg" width="500px;"&gt;
+&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204923.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 6" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204928.jpg" width="500px;"&gt;
+&lt;img alt="Foto 7" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204932.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 8" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204939.jpg" width="500px;"&gt;
+&lt;img alt="Foto 9" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204943.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 10" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_204957.jpg" width="500px;"&gt;
+&lt;img alt="Foto 11" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_205007.jpg" width="500px;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto 12" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_205015.jpg" width="500px;"&gt;
+&lt;img alt="Foto 13" src="https://pyladiescaxias.github.io/site/images/redeneural/IMG_20171014_205020.jpg" width="500px;"&gt;&lt;/p&gt;</content><category term="programação"></category><category term="python"></category></entry></feed>
