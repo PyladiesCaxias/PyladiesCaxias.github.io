@@ -29,6 +29,7 @@ Ele irá criar um novo arquivo **nome-do-seu-post.md** na pasta **content** e ab
 	ex: tags: eventos, django_girls, python
 
 Após terminar o post, renderize-o com o comando:
+
     ```
 	pelican content
     ```
@@ -92,6 +93,7 @@ Para criar uma nova página, rode o comando:
 Ele irá criar um novo arquivo **nome-pagina.md** na pasta **content/pages** e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você só precisará adicionar o restante do conteúdo.
 
 Após terminar de editar a página, renderize-a com o comando:
+
     ```
 	pelican content
     ```
@@ -109,17 +111,19 @@ Materiais
 
 Para adicionar links na página Materiais:
 
-No arquivo: pelicanconf.py
+No arquivo: **pelicanconf.py**
 
 * adicionar uma tupla no MATERIAIS_LINKS:
 	ex: ('Nome do curso', link, tema),
 
-Rode o comando:
+* Rode o comando:
+
     ```
 	pelican content
     ```
 
 * Quando estiver pronto pode adicioná-lo ao github:
+
     ```
 	git commit -am "Adicionado post NOME DA Alteração"
 	git push origin nome_branch
@@ -131,7 +135,7 @@ Barra Social
 
 Para adicionar links da barra social:
 
-No arquivo: pelicanconf.py
+No arquivo: **pelicanconf.py**
 
 * Para adicionar um link para um site:
 	* adicionar uma tupla no LINKS:
@@ -146,11 +150,13 @@ No arquivo: pelicanconf.py
 			ex: ('Titulo do link', 'link'),
 
 Rode o comando:
+
     ```
 	pelican content
     ```
 
 * Quando estiver pronto pode adicioná-lo ao github:
+
     ```
 	git commit -am "Adicionado post NOME DA Alteração"
 	git push origin nome_branch
@@ -161,10 +167,11 @@ Atualizando o site
 ------------------
 
 Para atualizar o site rode o comando abaixo.
+
     ```
     make github
     ```
 
-Ele vai compilar os html, e dar o push na brach master do github.
+Ele vai compilar os html, e dar o push na **brach master do github**.
 
 * Obs: Ainda é necessário dar o commit das atualizações na **branch dev**
