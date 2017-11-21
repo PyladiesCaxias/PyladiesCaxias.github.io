@@ -110,7 +110,7 @@ Contribuindo
 ------------
 
 Para contribuir com o projeto veja o guia de
-[Contribuição](https://github.com/PyladiesCaxias/site/blob/master/CONTRIBUINDO.md).
+[Contribuição](https://github.com/PyladiesCaxias/PyladiesCaxias.github.io/blob/master/CONTRIBUINDO.md).
 
 Links Úteis
 -----------
