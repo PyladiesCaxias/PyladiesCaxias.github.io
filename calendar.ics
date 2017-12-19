@@ -16,16 +16,17 @@ UID:Python Sul 2017<p class="first last">A <a class="reference external" h
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p class="first last">Este será o 1° dos encontros de Python da 
- região\, o encontro é gratuito e aberto a todos que queiram participar\,
-  não precisa conhecer Python o evento terá um slot introdutório.</p>\n
-DTSTART:2017-11-18 09:30:00
-DTEND:2017-11-18 11:30:00
-DTSTAMP:2017-11-18 09:30:00
-UID:Encontro de Novembro<p class="first last">Este será o 1° dos encontr
- os de Python da região\, o encontro é gratuito e aberto a todos que quei
- ram participar\, não precisa conhecer Python o evento terá um slot intro
- dutório.</p>\n
+SUMMARY:<p class="first last">O PyLadies Caxias do Sul teve seu primeiro e
+ ncontro no dia 15 de Julho de 2017\, na Universidade de Caxias do Sul. O e
+ vento contou com a presença das PyLadies POA e alunas da Universidade.</p
+ >\n
+DTSTART:2017-07-15 09:00:00
+DTEND:2017-07-15 12:00:00
+DTSTAMP:2017-07-15 09:10:00
+UID:1° Encontro PyLadies<p class="first last">O PyLadies Caxias do Sul te
+ ve seu primeiro encontro no dia 15 de Julho de 2017\, na Universidade de C
+ axias do Sul. O evento contou com a presença das PyLadies POA e alunas da
+  Universidade.</p>\n
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -43,17 +44,16 @@ UID:Tchelinux Caxias<p class="first last">Tchelinux é um grupo de usuári
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p class="first last">O PyLadies Caxias do Sul teve seu primeiro e
- ncontro no dia 15 de Julho de 2017\, na Universidade de Caxias do Sul. O e
- vento contou com a presença das PyLadies POA e alunas da Universidade.</p
- >\n
-DTSTART:2017-07-15 09:00:00
-DTEND:2017-07-15 12:00:00
-DTSTAMP:2017-07-15 09:10:00
-UID:1° Encontro PyLadies<p class="first last">O PyLadies Caxias do Sul te
- ve seu primeiro encontro no dia 15 de Julho de 2017\, na Universidade de C
- axias do Sul. O evento contou com a presença das PyLadies POA e alunas da
-  Universidade.</p>\n
+SUMMARY:<p class="first last">Este será o 1° dos encontros de Python da 
+ região\, o encontro é gratuito e aberto a todos que queiram participar\,
+  não precisa conhecer Python o evento terá um slot introdutório.</p>\n
+DTSTART:2017-11-18 09:30:00
+DTEND:2017-11-18 11:30:00
+DTSTAMP:2017-11-18 09:30:00
+UID:Encontro de Novembro<p class="first last">Este será o 1° dos encontr
+ os de Python da região\, o encontro é gratuito e aberto a todos que quei
+ ram participar\, não precisa conhecer Python o evento terá um slot intro
+ dutório.</p>\n
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
