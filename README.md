@@ -8,7 +8,7 @@ A página foi desenvolvida utilizando a biblioteca de geração de sites estáti
 
 ## Instalando e rodando
 ```
-$ git clone https://github.com/PyladiesCaxias/site.git
+$ git clone https://github.com/PyladiesCaxias/PyladiesCaxias.github.io.git
 ```
 Entre na pasta do repositório e crie um ambiente virtual (virtualenv). Se você não sabe como criar uma virtualenv, é altamente recomendado que leia o [tutorial DjangoGirls](http://tutorial.djangogirls.org/pt/django_installation/). Ative a virtualenv.
 
@@ -42,6 +42,11 @@ Gerando a estrutura do projeto:
 ```
 pelican content
 ```
+ou
+
+```
+make html
+```
 
 ## Executando o projeto local
 
@@ -49,8 +54,14 @@ pelican content
 cd <repo-path>/output
 python -m pelican.server
 ```
+ou
+
+```
+make serve
+```
 
 ## Estrutura do projeto
+
 ```
 ├── content
 │   ├── home.md
@@ -105,7 +116,7 @@ Contribuindo
 ------------
 
 Para contribuir com o projeto veja o guia de
-[Contribuição](https://github.com/PyladiesCaxias/site/blob/master/CONTRIBUINDO.md).
+[Contribuição](https://github.com/PyladiesCaxias/PyladiesCaxias.github.io/blob/dev/CONTRIBUINDO.md).
 
 Links Úteis
 -----------
