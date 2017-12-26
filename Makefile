@@ -54,6 +54,7 @@ help:
 	@echo '   make post NAME="POST NAME"          create new post with input name    '
 	@echo '   make page NAME="PAGE NAME"          create new ppage with input name   '
 	@echo '   make event NAME="NAME EVENTO"       create new ppage with input name   '
+	@echo '   make commit                         commit fonts in github             '
 	@echo '   make publish                        generate using production settings '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
@@ -131,6 +132,14 @@ github: publish
 	ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
+commit:
+ifdef MESSAGE
+	git commit -am MESSAGE
+	git push origin dev
+else
+	git commit -am "add fonts"
+	git push origin dev
+endif
 
 post:
 ifdef NAME
