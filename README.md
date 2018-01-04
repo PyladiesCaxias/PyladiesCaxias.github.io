@@ -1,6 +1,7 @@
 ![PyLadies](content/images/icones/logo.jpg)
 
 # site
+
 Projeto colaborativo do site PyLadiesCaxias (Caxias do Sul / Rio grande do Sul).
 
 A página foi desenvolvida utilizando a biblioteca de geração de sites estáticos [Pelican](http://docs.getpelican.com/).
