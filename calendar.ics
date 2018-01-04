@@ -44,19 +44,6 @@ UID:Tchelinux Caxias<p class="first last">Tchelinux é um grupo de usuári
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p class="first last">Este será o 1° dos encontros de Python da 
- região\, o encontro é gratuito e aberto a todos que queiram participar\,
-  não precisa conhecer Python o evento terá um slot introdutório.</p>\n
-DTSTART:2017-11-18 09:30:00
-DTEND:2017-11-18 11:30:00
-DTSTAMP:2017-11-18 09:30:00
-UID:Encontro de Novembro<p class="first last">Este será o 1° dos encontr
- os de Python da região\, o encontro é gratuito e aberto a todos que quei
- ram participar\, não precisa conhecer Python o evento terá um slot intro
- dutório.</p>\n
-PRIORITY:5
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:<p class="first last">No dia 07 de outubro de 2017 o PyLadies Caxi
  as do Sul realizou seu encontro mensal. Não pode articipar do nosso encon
  tro\, mas ficou curiosa para saber o que rolou? Não tem problema!</p>\n
