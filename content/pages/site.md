@@ -1,5 +1,2 @@
-title: site
-Description: site
-Tags: 
-
-
+Title: site
+Status: hidden

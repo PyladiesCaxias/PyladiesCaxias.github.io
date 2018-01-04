@@ -21,7 +21,11 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'icones/logo.ico', 'pdfs']
+
+DEFAULT_METADATA = {'Status': 'published'}
+
+STATIC_PATHS = ['images', 'extra/CNAME', 'icones/logo.ico', 'pdfs']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 TIMEZONE = 'America/Sao_Paulo'
 
@@ -58,7 +62,7 @@ SOCIAL = (('facebook-square', 'Facebook','https://www.facebook.com/pyladiescaxia
          ('slack', 'Slack PyLadiesRS', 'https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY'),
          ('meetup', 'Meetup', 'https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/'),)
 
-EMAIL = ('envelope','pyladiescaxias@gmail.com', 'mailto:pyladiescaxias@gmail.com')
+EMAIL = ('envelope','caxiasdosul@pyladies.com', 'mailto:caxiasdosul@pyladies.com')
 
 EVENTOS = (('Python Brasil[14] - 2018', 'http://2018.pythonbrasil.org.br/'),
     ('PyCaxias', 'http://pycaxias.org/'),
