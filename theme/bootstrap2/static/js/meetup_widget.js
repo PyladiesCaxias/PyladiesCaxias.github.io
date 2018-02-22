@@ -30,9 +30,8 @@ var PyladiesMeetupWidget = (function() {
 
   _makeAjaxRequest = function(ids) {
     // fetch data
-    console.log("aquiii");
     $.ajax({
-      url: 'https://api.meetup.com/'+ids+'/events?&sign=true&photo-host=public&page=20&status=upcoming',
+      url: 'https://api.meetup.com/'+ids+'/events?&sign=true&photo-host=secure&page=20&status=upcoming',
       dataType: 'jsonp',
       success: function(data) {
         _buildHtml(data);
@@ -49,7 +48,7 @@ var PyladiesMeetupWidget = (function() {
     // noticed that neither Taiwan or Bangalore's logos returned, so perhaps there
     // is some difference in data offered in parts of Asia?
     var json = {
-      local: response.venue.name,
+      local: response.venue.name + ' - '+ response.how_to_find_us,
       link: response.link,
       description: response.description,
       eventName: response.name,
@@ -74,7 +73,7 @@ var PyladiesMeetupWidget = (function() {
       json = _getJSON(datum);
 
       html = '<div class="col-md-6 col-sm-12 col-xs-12"><div class="card"><div class="card-header">';
-      html += '<h5><a href="'+json.link+'">'+json.eventDate + '-' +json.eventName +'</a></h5></div>';
+      html += '<h5><a href="'+json.link+'">'+ json.eventName +'</a></h5></div>';
       html += '<div class="card-body"><p><b>Data:</b>'+json.eventDate +'</p><p><b>Hora:</b>' + json.eventTime + '</p>';
       html += '<p><b>Local:</b>'+ json.local+ '</p><p>'+json.description+'</p>';
       html += '<p><a class="btn btn-secondary btn-sm btn-pydefault" href="'+ json.link +'" role="button">Saiba mais e Inscreva-se »</a></p></div></div></div>';
