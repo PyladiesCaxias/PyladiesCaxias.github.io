@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyLadies Caxias do Sul - misc</title><link href="https://pyladiescaxias.github.io/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/</id><updated>2018-01-04T09:12:33-02:00</updated><entry><title>Code Club PyKids</title><link href="https://pyladiescaxias.github.io/code-club-pykids.html" rel="alternate"></link><published>2018-01-04T09:12:33-02:00</published><updated>2018-01-04T09:12:33-02:00</updated><author><name>PyLadies</name></author><id>tag:pyladiescaxias.github.io,2018-01-04:/code-club-pykids.html</id><summary type="html">&lt;p&gt;&lt;img alt="Code Club" src="https://pyladiescaxias.github.io/images/codeclubPykids/codeclub-robots.png"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyLadies Caxias do Sul - misc</title><link href="https://pyladiescaxias.github.io/" rel="alternate"></link><link href="https://pyladiescaxias.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://pyladiescaxias.github.io/</id><updated>2018-05-19T11:20:19-03:00</updated><entry><title>Django Girls Bento Gonçalves</title><link href="https://pyladiescaxias.github.io/django-girls-bento-goncalves.html" rel="alternate"></link><published>2018-05-19T11:20:19-03:00</published><updated>2018-05-19T11:20:19-03:00</updated><author><name>PyLadies</name></author><id>tag:pyladiescaxias.github.io,2018-05-19:/django-girls-bento-goncalves.html</id><summary type="html">&lt;p&gt;Django Girls é uma oficina de programação gratuita para mulheres. Bento Gonçalves teve sua 1° edição no dia 19 de maio de 2018.&lt;/p&gt;
+&lt;p&gt;A oficina Django Girls para introduzir meninas e mulheres à programação com Python.&lt;/p&gt;
+&lt;p&gt;Confira algumas fotos da oficina:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto Oficial" src="https://pyladiescaxias.github.io/images/DG/bento/oficial.jpeg" width="500px;"&gt;
+&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/images/DG/bento/staff.jpeg" width="500px;"&gt;&lt;/p&gt;
+&lt;h3&gt;Links Importantes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tutorial.djangogirls.org/pt/"&gt;Tutorial Django Girls&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Próximos Django Girls&lt;/h3&gt;
+&lt;p&gt;Em breve teremos a segunda edição da oficina em &lt;a href="https://djangogirls.org/caxiasdosul/"&gt;Caxias do …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Django Girls é uma oficina de programação gratuita para mulheres. Bento Gonçalves teve sua 1° edição no dia 19 de maio de 2018.&lt;/p&gt;
+&lt;p&gt;A oficina Django Girls para introduzir meninas e mulheres à programação com Python.&lt;/p&gt;
+&lt;p&gt;Confira algumas fotos da oficina:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto Oficial" src="https://pyladiescaxias.github.io/images/DG/bento/oficial.jpeg" width="500px;"&gt;
+&lt;img alt="Foto 5" src="https://pyladiescaxias.github.io/images/DG/bento/staff.jpeg" width="500px;"&gt;&lt;/p&gt;
+&lt;h3&gt;Links Importantes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tutorial.djangogirls.org/pt/"&gt;Tutorial Django Girls&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Próximos Django Girls&lt;/h3&gt;
+&lt;p&gt;Em breve teremos a segunda edição da oficina em &lt;a href="https://djangogirls.org/caxiasdosul/"&gt;Caxias do Sul&lt;/a&gt; - 31/08 e 01 de setembro&lt;/p&gt;</content></entry><entry><title>Code Club PyKids</title><link href="https://pyladiescaxias.github.io/code-club-pykids.html" rel="alternate"></link><published>2018-01-04T09:12:33-02:00</published><updated>2018-01-04T09:12:33-02:00</updated><author><name>PyLadies</name></author><id>tag:pyladiescaxias.github.io,2018-01-04:/code-club-pykids.html</id><summary type="html">&lt;p&gt;&lt;img alt="Code Club" src="https://pyladiescaxias.github.io/images/codeclubPykids/codeclub-robots.png"&gt;&lt;/p&gt;
 &lt;p&gt;O Code Club PyKids surgiu de uma parceria do PyLadies Caxias do Sul com o Code Club Brasil, tem como objetivo ensinar lógica de programação para crianças de uma forma lúdica.&lt;/p&gt;
 &lt;p&gt;Com isso queremos que as mulheres possam participar sem a preocupação de com quem deixar suas crianças, pois elas estarão em uma sala ao lado também aprendendo.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Code Club" src="https://pyladiescaxias.github.io/images/codeclubPykids/header-1.png"&gt;&lt;/p&gt;
