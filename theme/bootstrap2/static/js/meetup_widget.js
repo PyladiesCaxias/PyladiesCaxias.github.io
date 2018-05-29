@@ -47,8 +47,15 @@ var PyladiesMeetupWidget = (function() {
     // note: Not every meetup group event request returns a photo--not sure why, but
     // noticed that neither Taiwan or Bangalore's logos returned, so perhaps there
     // is some difference in data offered in parts of Asia?
+
+     try {
+        var local_var = response.venue.name + ' - '+ response.how_to_find_us;
+      }
+      catch(err) {
+         var local_var = '';
+      }
     var json = {
-      local: response.venue.name + ' - '+ response.how_to_find_us,
+      local: local_var,
       link: response.link,
       description: response.description,
       eventName: response.name,
@@ -80,7 +87,7 @@ var PyladiesMeetupWidget = (function() {
 
       $('#upcomingMeetupsList').append(html);
     }
-  };
+  }
 
   _handleError = function(data) {
     // remove any stale list attached to dom and print error message
