@@ -2,7 +2,7 @@ Title: PyLadiesBrindes
 Description: pyladies-brindes
 Date: 2017-10-19 09:06:19
 Category:
-Tags: linux
+Tags:
 
 
 ❤️ Ficaram prontos nossos adesivos!! ❤️

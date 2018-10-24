@@ -1,7 +1,7 @@
 :title: 1° Encontro PyLadies
 :date: 2017-07-15 9:10
 :modified: 2017-07-16 9:10
-:tags: eventos, encontros, pyladies, pyladies poa
+:tags: eventos, encontros, pyladies poa
 :category: Eventos
 
 :slug: 1deg-encontro-pyladies

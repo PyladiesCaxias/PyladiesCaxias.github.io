@@ -2,7 +2,7 @@ Title: Code Club PyKids
 Description: code-club-pykids
 Date: 2018-01-04 09:12:33
 Category:
-Tags: code club, criançass
+Tags: code club
 
 ![Code Club]({filename}/images/codeclubPykids/codeclub-robots.png)
 

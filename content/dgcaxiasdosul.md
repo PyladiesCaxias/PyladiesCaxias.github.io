@@ -1,7 +1,7 @@
 title: Django Girls Caxias do Sul
 description: 1° Django Girls Caxias do Sul
 category: Eventos
-tags: eventos, django_girls, python, pyladies poa
+tags: eventos, django girls, python, pyladies poa
 Date: 2017-09-07 15:10
 comments: True
 sumary: Django Girls é uma oficina de programação gratuita para mulheres. Caxias do Sul teve sua 1° edição no dia 07 de setembro de 2017. Tivemos 25 participantes e mais 25 treinadores e organização.

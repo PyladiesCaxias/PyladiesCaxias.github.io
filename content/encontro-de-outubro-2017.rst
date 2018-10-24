@@ -2,7 +2,7 @@
 :description: Encontro mensal PyLadies Caxias do Sul
 :date: 2017-10-07 21:45:28
 :category: Eventos
-:tags: eventos, pyladies
+:tags: eventos
 
 :slug: encontro-de-outubro
 

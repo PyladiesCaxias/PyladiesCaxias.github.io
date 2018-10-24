@@ -2,7 +2,7 @@ Title: Python Brasil[13]
 Description: python-brasil
 Date: 2017-10-06
 Category: Eventos
-Tags: python, pyladies
+Tags: python
 
 ![Python Brasil [13]]({filename}/images/pythonbrasil/pybr13.jpg)
 

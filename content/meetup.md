@@ -2,7 +2,7 @@ Title: Meetup PyLadies Caxias do Sul
 Description: Meetup PyLadies Caxias do Sul
 Date: 2017-11-20 17:04:53
 Category:
-Tags:
+Tags: eventos
 
 O Meetup é um aplicativo que incentiva a criação de comunidades locais baseadas em assuntos de interesse mútuo.
 

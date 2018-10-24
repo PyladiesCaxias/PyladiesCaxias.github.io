@@ -1,8 +1,8 @@
 Title: Coding Dojo - Rede Neural
 Description: coding-dojo-rede-neural
 Date: 2017-10-15 15:45:29
-Category: 
-Tags: programação, python 
+Category:
+Tags: programação, python
 
 
 No dia 14 de Outubro, participamos do Coding Dojo do [Rede Neural](https://www.meetup.com/pt-BR/Rede-Neural/).

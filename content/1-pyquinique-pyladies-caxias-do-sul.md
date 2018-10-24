@@ -2,7 +2,7 @@ Title: 1° Pyquinique PyLadies Caxias do Sul
 Description: 1-pyquinique-pyladies-caxias-do-sul
 Date: 2017-12-10 15:30:00
 Category: Eventos
-Tags: Caxias do Sul, eventos
+Tags: eventos
 
 Foi o encerramento das nossas atividades deste ano, e inauguração do Code Club PyKids. Este ano foi muito especial para nós, foi o ano de nossa fundação, ano que tivemos a nossa primeira oficina Django Girls. <3
 

@@ -30,7 +30,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'pt'
-THEME = 'theme/bootstrap2'
+THEME = 'theme/voce'
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -45,28 +45,33 @@ AUTHOR_FEED_RSS = None
 GOOGLE_CUSTOM_SEARCH_SIDEBAR = False
 TWITTER_USERNAME = False
 
-MENUITEMS = (
-    # ('Blog', '/archives.html'),
-    # ('Materiais', '/materiais.html'),
+# GOOGLE_ANALYTICS_ID: Your Google Analytics UA-XXXXXXXX-X code (None to disable analytics).
+# GOOGLE_ANALYTICS_PROP: Your Google Analytics property name (None to disable analytics).
+USER_LOGO_URL = 'images/icones/desenho3.png'
+MANGLE_EMAILS = True
+# GLOBAL_KEYWORDS: A list of strings that will be set as meta keywords for each page.
+FUZZY_DATES = True
+
+TAGS_URL = 'tags.html'
+ARCHIVES_URL = 'archives.html'
+
+SOCIAL = (('Feed','/feeds/all.atom.xml'),
+      ('Email','mailto:xxx@gmail.com'),
+      ('GitHub','http://github.com/limbenjamin'),)
+
+LINKS = (
+        ('Home','/index.html'),
+        ('Sobre','/sobre/index.html'),
+        ('Materiais','/materiais/index.html'),
+        ('Eventos','/events-list/index.html'),
+        )
+
+SOCIAL = (
+    ('Email','mailto:caxiasdosul@pyladies.com'),
+    ('Facebook','https://www.facebook.com/pyladiescaxias/'),
+    ('GitHub','https://github.com/PyladiesCaxias'),
+    ('meetup', 'https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/'),
 )
-
-
-LINKS = (('Python.org', 'http://python.org/'),
-         ('Python Brasil', 'http://python.org.br/'),
-         ('PyLadiesBrasil', 'http://brasil.pyladies.com/'),)
-
-# Blogroll
-SOCIAL = (('facebook-square', 'Facebook','https://www.facebook.com/pyladiescaxias/'),
-         ('github-square', 'GitHub','https://github.com/PyladiesCaxias'),
-         ('whatsapp','Whatsapp', 'https://chat.whatsapp.com/6zWbhXYgPWsEa8G03QJo0b'),
-         ('slack', 'Slack PyLadiesRS', 'https://join.slack.com/t/pyladiesrs/shared_invite/enQtMjQ1ODQyOTQ0OTYyLWFhZTBjYTVmMzk0ZTA0OWI0ZjhjMzM1YTE1YzkyZWIxMjlmYjM3YTY0YmM3ZmRjZjg2NTZlZWEwNTA4ZmJiNWY'),
-         ('meetup', 'Meetup', 'https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/'),)
-
-EMAIL = ('envelope','caxiasdosul@pyladies.com', 'mailto:caxiasdosul@pyladies.com')
-
-EVENTOS = (('Python Brasil[14] - 2018', 'http://2018.pythonbrasil.org.br/'),
-    ('PyCaxias', 'http://pycaxias.org/'),
-    ('Python Sul', 'http://pythonsul.org/'),)
 
 MATERIAIS_LINKS = (('Django Project', 'https://docs.djangoproject.com/en/1.8/intro/tutorial01/', 'Python/Django'),
     ('Code Academy Python course', 'https://www.codecademy.com/en/tracks/python', 'Python'),
@@ -80,17 +85,10 @@ MATERIAIS_LINKS = (('Django Project', 'https://docs.djangoproject.com/en/1.8/int
 DEFAULT_PAGINATION = 10
 PDF_PROCESSOR = None
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['events', 'pelican_youtube', 'tag_cloud']
+PLUGINS = ['pelican_youtube', 'tag_cloud', 'assets']
 
 TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
 TAG_CLOUD_SORTING = 'random'
 TAG_CLOUD_BADGE = True
-
-PLUGIN_EVENTS = {
-    'ics_fname': 'calendar.ics',
-
-}

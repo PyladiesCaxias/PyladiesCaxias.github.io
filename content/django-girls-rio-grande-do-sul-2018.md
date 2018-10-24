@@ -2,8 +2,7 @@ Title: Django Girls Rio Grande do Sul 2018
 Description: django-girls-rio-grande-do-sul-2018
 Date: 2017-10-18 11:39:28
 Category:
-Tags: django, django girls
-
+Tags: django girls
 
 
 A Python Sul movimentou mesmo a região! Nos perguntamos, E agora? O que vem depois? Qual a próxima cidade?
