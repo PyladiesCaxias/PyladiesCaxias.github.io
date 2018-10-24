@@ -2,20 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
 BEGIN:VEVENT
-SUMMARY:<p class="first last">A <a class="reference external" href="http:/
- /pythonsul.org/">Python Sul</a> reuniu pessoas durante 3 dias\, 8\,9 e 10 
- de setembro\, para discutir sobre software livre\, práticas de desenvolvi
- mento e Python.</p>\n
-DTSTART:2017-09-08 08:30:00
-DTEND:2017-09-10 18:00:00
-DTSTAMP:2017-09-08 15:10:00
-UID:Python Sul 2017<p class="first last">A <a class="reference external" h
- ref="http://pythonsul.org/">Python Sul</a> reuniu pessoas durante 3 dias\,
-  8\,9 e 10 de setembro\, para discutir sobre software livre\, práticas de
-  desenvolvimento e Python.</p>\n
-PRIORITY:5
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:<p class="first last">Tchelinux é um grupo de usuários de Softwa
  re Livre\, tem o prazer de convidar a comunidade para participar. Nesse ev
  ento estaremos divulgando o PyLadies Caxias do Sul\, distribuindo adesivos
@@ -30,17 +16,17 @@ UID:Tchelinux Caxias<p class="first last">Tchelinux é um grupo de usuári
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:<p class="first last">O PyLadies Caxias do Sul teve seu primeiro e
- ncontro no dia 15 de Julho de 2017\, na Universidade de Caxias do Sul. O e
- vento contou com a presença das PyLadies POA e alunas da Universidade.</p
- >\n
-DTSTART:2017-07-15 09:00:00
-DTEND:2017-07-15 12:00:00
-DTSTAMP:2017-07-15 09:10:00
-UID:1° Encontro PyLadies<p class="first last">O PyLadies Caxias do Sul te
- ve seu primeiro encontro no dia 15 de Julho de 2017\, na Universidade de C
- axias do Sul. O evento contou com a presença das PyLadies POA e alunas da
-  Universidade.</p>\n
+SUMMARY:<p class="first last">A <a class="reference external" href="http:/
+ /pythonsul.org/">Python Sul</a> reuniu pessoas durante 3 dias\, 8\,9 e 10 
+ de setembro\, para discutir sobre software livre\, práticas de desenvolvi
+ mento e Python.</p>\n
+DTSTART:2017-09-08 08:30:00
+DTEND:2017-09-10 18:00:00
+DTSTAMP:2017-09-08 15:10:00
+UID:Python Sul 2017<p class="first last">A <a class="reference external" h
+ ref="http://pythonsul.org/">Python Sul</a> reuniu pessoas durante 3 dias\,
+  8\,9 e 10 de setembro\, para discutir sobre software livre\, práticas de
+  desenvolvimento e Python.</p>\n
 PRIORITY:5
 END:VEVENT
 BEGIN:VEVENT
@@ -54,6 +40,20 @@ UID:Encontro de Outubro 2017<p class="first last">No dia 07 de outubro de
  2017 o PyLadies Caxias do Sul realizou seu encontro mensal. Não pode arti
  cipar do nosso encontro\, mas ficou curiosa para saber o que rolou? Não t
  em problema!</p>\n
+PRIORITY:5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:<p class="first last">O PyLadies Caxias do Sul teve seu primeiro e
+ ncontro no dia 15 de Julho de 2017\, na Universidade de Caxias do Sul. O e
+ vento contou com a presença das PyLadies POA e alunas da Universidade.</p
+ >\n
+DTSTART:2017-07-15 09:00:00
+DTEND:2017-07-15 12:00:00
+DTSTAMP:2017-07-15 09:10:00
+UID:1° Encontro PyLadies<p class="first last">O PyLadies Caxias do Sul te
+ ve seu primeiro encontro no dia 15 de Julho de 2017\, na Universidade de C
+ axias do Sul. O evento contou com a presença das PyLadies POA e alunas da
+  Universidade.</p>\n
 PRIORITY:5
 END:VEVENT
 END:VCALENDAR
