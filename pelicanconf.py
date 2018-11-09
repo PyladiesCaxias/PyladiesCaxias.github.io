@@ -58,13 +58,14 @@ LINKS = (('Python.org', 'http://python.org/'),
 # Blogroll
 SOCIAL = (('facebook-square', 'Facebook','https://www.facebook.com/pyladiescaxiasdosul/'),
          ('github-square', 'GitHub','https://github.com/PyladiesCaxias'),
-         ('meetup', 'Meetup', 'https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/'),)
+         ('meetup', 'Meetup', 'https://www.meetup.com/pt-BR/PyLadies-CaxiasdoSul/'),
+         ('instagram', 'Instagram', 'https://wwww.instagram.com/pyladiescaxiasdosul'),
+         ('twitter', 'Twitter', 'https://twitter.com/caxiaspyladies'))
 
 EMAIL = ('envelope','caxiasdosul@pyladies.com', 'mailto:caxiasdosul@pyladies.com')
 
-EVENTOS = (('Python Brasil[14] - 2018', 'http://2018.pythonbrasil.org.br/'),
-    ('PyCaxias', 'http://pycaxias.org/'),
-    ('Python Sul', 'http://pythonsul.org/'),)
+EVENTOS = (('PyCaxias', 'http://pycaxias.org/'),
+    )
 
 MATERIAIS_LINKS = (('Django Project', 'https://docs.djangoproject.com/en/1.8/intro/tutorial01/', 'Python/Django'),
     ('Code Academy Python course', 'https://www.codecademy.com/en/tracks/python', 'Python'),
